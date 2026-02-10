@@ -54,7 +54,7 @@ jobs:
         run: |
           set -euo pipefail
           release_json=$(gh release view -R "$NEATIFY_REPO" --json tagName,assets)
-          python - <<'PY' "$release_json" > downloads/latest.json
+          python - "$release_json" > downloads/latest.json <<'PY'
 import json
 import re
 import sys
