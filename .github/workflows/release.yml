@@ -55,36 +55,36 @@ jobs:
           set -euo pipefail
           release_json=$(gh release view -R "$NEATIFY_REPO" --json tagName,assets)
           python - "$release_json" > downloads/latest.json <<'PY'
-import json
-import re
-import sys
+          import json
+          import re
+          import sys
 
-payload = json.loads(sys.argv[1])
-version = payload.get("tagName", "").lstrip("v")
-assets = []
+          payload = json.loads(sys.argv[1])
+          version = payload.get("tagName", "").lstrip("v")
+          assets = []
 
-pattern = re.compile(r"^neatify-(.+)-(linux|macos|windows)-([^.]+)\.(.+)$")
-for asset in payload.get("assets", []):
-    name = asset.get("name", "")
-    match = pattern.match(name)
-    if not match:
-        continue
-    assets.append(
-        {
-            "version": match.group(1),
-            "os": match.group(2),
-            "arch": match.group(3),
-            "ext": match.group(4),
-            "file": name,
-        }
-    )
+          pattern = re.compile(r"^neatify-(.+)-(linux|macos|windows)-([^.]+)\.(.+)$")
+          for asset in payload.get("assets", []):
+              name = asset.get("name", "")
+              match = pattern.match(name)
+              if not match:
+                  continue
+              assets.append(
+                  {
+                      "version": match.group(1),
+                      "os": match.group(2),
+                      "arch": match.group(3),
+                      "ext": match.group(4),
+                      "file": name,
+                  }
+              )
 
-output = {
-    "version": version,
-    "assets": assets,
-}
-print(json.dumps(output, indent=2))
-PY
+          output = {
+              "version": version,
+              "assets": assets,
+          }
+          print(json.dumps(output, indent=2))
+          PY
       - name: Commit updates
         shell: bash
         run: |
