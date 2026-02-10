@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Neatify</title>
+		<meta
+			name="description"
+			content="Neatify is a rule-driven formatter powered by tree-sitter and Rhai."/>
+		<link rel="stylesheet" href="assets/styles.css"/>
+	</head>
+	<body>
+		<div class="background">
+			<div class="grid"></div>
+			<div class="glow"></div>
+		</div>
+		<header class="nav">
+			<div class="logo">Neatify</div>
+			<nav class="links">
+				<a href="https://github.com/neatify-tech/neatify">Core</a>
+				<a href="https://github.com/neatify-tech/repository">Repository</a>
+				<a href="https://github.com/neatify-tech">GitHub</a>
+			</nav>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="hero-text">
+					<p class="eyebrow">Scriptable formatter</p>
+					<h1>
+						Your Code.
+						<br/>
+						Your Rules.
+					</h1>
+					<p class="lede">
+						Neatify combines a high-performance Rust core with Tree-sitter’s universal syntax support and scriptable logic. 
+			It trades hardcoded opinions for a powerful scripting framework, giving you the ultimate freedom to define -or AI-generate- complex formatting and linting rules for any language.
+					</p>
+					<div class="cta-row">
+						<a class="button" href="#downloads">Get Neatify</a>
+						<a class="button ghost" href="https://github.com/neatify-tech/neatify">
+							View source
+						</a>
+					</div>
+				</div>
+				<div class="hero-card">
+					<div class="stat">
+						<span class="label">Default Formatters</span>
+						<span class="value">java, ts, js, rust, rhai, css, html, markdown, vue, json, sql</span>
+					</div>
+					<div class="stat">
+						<span class="label">Core Engine</span>
+						<span class="value">Rust</span>
+					</div>
+					<div class="stat">
+						<span class="label">Formatting rules</span>
+						<span class="value">Rhai scripts</span>
+					</div>
+				</div>
+			</section>
+			<section class="panel" id="downloads">
+				<div class="panel-header">
+					<h2>Downloads</h2>
+					<p>Latest release builds for each platform.</p>
+				</div>
+				<div class="download-grid">
+					<article
+						class="download-card"
+						data-os="windows"
+						data-arch="x86_64">
+						<h3>Windows</h3>
+						<p>Portable binary for Windows x86_64.</p>
+						<a
+							class="button"
+							data-download
+							href="#">Loading…</a>
+					</article>
+					<article
+						class="download-card"
+						data-os="macos"
+						data-arch="aarch64">
+						<h3>macOS (Apple Silicon)</h3>
+						<p>Signed binary for Apple Silicon.</p>
+						<a
+							class="button"
+							data-download
+							href="#">Loading…</a>
+					</article>
+					<article
+						class="download-card"
+						data-os="linux"
+						data-arch="x86_64">
+						<h3>Linux</h3>
+						<p>Portable zip for Linux x86_64.</p>
+						<a
+							class="button"
+							data-download
+							href="#">Loading…</a>
+					</article>
+				</div>
+				<p class="download-note">
+					Looking for a different architecture or package format? Check the
+					<a href="https://github.com/neatify-tech/neatify/releases">release page</a>
+					.
+				</p>
+			</section>
+			<section class="panel">
+				<div class="panel-header">
+					<h2>Why Neatify</h2>
+					<p>
+						In the age of AI-generated code, being a prolific polyglot is easier
+            than ever. That makes consistent formatting harder, but clean structure still
+            matters for human understanding.
+					</p>
+					<br/>
+					<p>
+						Neatify believes formatting shouldn’t be locked behind a select few opinionated toggles;
+            it should be fully scriptable for maximum flexibility, and consistent across as many syntaxes as possible.
+					</p>
+				</div>
+				<div class="info-grid">
+					<div class="info-card">
+						<h3>Broad syntax support</h3>
+						<p>Tree-sitter coverage means Neatify can target almost any language.</p>
+					</div>
+					<div class="info-card">
+						<h3>Fully scriptable styles</h3>
+						<p>Formatting behavior lives in Rhai, so you can model any style.</p>
+					</div>
+					<div class="info-card">
+						<h3>Nested formatting</h3>
+						<p>
+							Formatters can traverse embedded syntaxes, like Markdown code blocks or
+              Vue files that need HTML, JS, and CSS cleaned up together.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<span>Neatify Tech</span>
+			<span>Built for predictable formatting.</span>
+		</footer>
+		<script src="assets/app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+name: Release site content
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+env:
+  REPOSITORY_REPO: neatify-tech/repository
+  NEATIFY_REPO: neatify-tech/neatify
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Sync repository registry
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          repo_tag=$(gh release view -R "$REPOSITORY_REPO" --json tagName -q .tagName)
+          asset="neatify-repository-${repo_tag}.zip"
+          gh release download -R "$REPOSITORY_REPO" -p "$asset" -D "$temp_dir" --clobber
+          rm -rf repository
+          mkdir -p repository
+          unzip -q "$temp_dir/$asset" -d "$temp_dir/extracted"
+          shopt -s nullglob
+          extracted_items=("$temp_dir/extracted"/*)
+          if [ "${#extracted_items[@]}" -eq 1 ] && [ -d "${extracted_items[0]}" ]; then
+            rsync -a --delete "${extracted_items[0]}/" repository/
+          else
+            rsync -a --delete "$temp_dir/extracted/" repository/
+          fi
+      - name: Sync downloads
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf downloads
+          mkdir -p downloads
+          gh release download -R "$NEATIFY_REPO" -D downloads -p "neatify-*" --clobber
+      - name: Generate latest.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_json=$(gh release view -R "$NEATIFY_REPO" --json tagName,assets)
+          python - <<'PY' "$release_json" > downloads/latest.json
+import json
+import re
+import sys
+
+payload = json.loads(sys.argv[1])
+version = payload.get("tagName", "").lstrip("v")
+assets = []
+
+pattern = re.compile(r"^neatify-(.+)-(linux|macos|windows)-([^.]+)\.(.+)$")
+for asset in payload.get("assets", []):
+    name = asset.get("name", "")
+    match = pattern.match(name)
+    if not match:
+        continue
+    assets.append(
+        {
+            "version": match.group(1),
+            "os": match.group(2),
+            "arch": match.group(3),
+            "ext": match.group(4),
+            "file": name,
+        }
+    )
+
+output = {
+    "version": version,
+    "assets": assets,
+}
+print(json.dumps(output, indent=2))
+PY
+      - name: Commit updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add repository downloads index.html assets robots.txt .nojekyll
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync repository and downloads"
+          git push
