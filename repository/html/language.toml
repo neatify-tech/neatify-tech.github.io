@@ -1,0 +1,13 @@
+name = "html"
+version = "0.1.0"
+formatter = "html/main.rhai"
+# Grammar source: https://github.com/tree-sitter/tree-sitter-html
+# Grammar tag: none
+# Grammar commit: 73a3947
+fragment-marker = "<!-- {marker} -->"
+
+extensions = [".html", ".htm"]
+
+[treesitter]
+language = "html"
+binary = "treesitter/{os}/{arch}/html.{ext}"

@@ -1,0 +1,1979 @@
+[[files]]
+path = "README.md"
+sha256 = "f6f68a154cf01191fd8dc78f6759c86b1dfbca7062962f6179f90f238abced9c"
+size = 43
+
+[[files]]
+path = "css/configuration.rhai"
+sha256 = "c0ef4066e74659ce0d0eab1ddad9c271c4416516690e2fd6a946f6cf7156f364"
+size = 267
+
+[[files]]
+path = "css/kinds.rhai"
+sha256 = "8f34da75bd9f9dc380eb04f1f9611d6a316ac998beb6d7e87b0bcfdb5aee4cb8"
+size = 1715
+
+[[files]]
+path = "css/language.toml"
+sha256 = "b5e53193f4db43ac5ee0ffba3bcc78c12d784cad37f3233c8b9d39a5ed7b6744"
+size = 306
+
+[[files]]
+path = "css/main.rhai"
+sha256 = "e6c610fd6d55fa19dfe10aae1b11c0b957bd091b61f0ecf8158fcd58985949cd"
+size = 12391
+
+[[files]]
+path = "css/tests/basic.in.css"
+sha256 = "91fda3683e1a47790a84ac86d0bb2757129ec1475d5d28e44c310b29c43e7ca3"
+size = 87
+
+[[files]]
+path = "css/tests/basic.out.css"
+sha256 = "10628fb711e5d4bb7b434a7c42cc6372dbc3206fa27a4efe4d6a8b5a2412de12"
+size = 106
+
+[[files]]
+path = "css/tests/keyframes.in.css"
+sha256 = "655453343c6efdc340c7f98374d3895bf1ecc810712035ac6118340d9b05a099"
+size = 96
+
+[[files]]
+path = "css/tests/keyframes.out.css"
+sha256 = "c00527d19326edba622ebe8f177d789907f75bd0ca8c7e8612c28786cc943240"
+size = 126
+
+[[files]]
+path = "css/tests/layers.in.css"
+sha256 = "0a77d769422f5c7f5dd06970b816303c094172ceecc896862391f64e311f7f36"
+size = 200
+
+[[files]]
+path = "css/tests/layers.out.css"
+sha256 = "bcf1d8b7616e362aa0a075f542132b0d857e11133d5caad1087cc3076ff60005"
+size = 262
+
+[[files]]
+path = "css/tests/media.in.css"
+sha256 = "b9b606578a1835f2b0b9a06e7d97ba590b9d97edce64b0acd9cf38e437e28d35"
+size = 102
+
+[[files]]
+path = "css/tests/media.out.css"
+sha256 = "0a46e80a5cec52cd7c11be95fedb515b9010f4f66cef13b57be9eec8cf5c8d6f"
+size = 124
+
+[[files]]
+path = "css/tests/nested.in.css"
+sha256 = "97bcec40a9800bfb98cfec75fe9fe84865962cc7b4c25860219d24b1fe4c7061"
+size = 266
+
+[[files]]
+path = "css/tests/nested.out.css"
+sha256 = "1722bda3939a2e7a42b268cf3a651acf5dbcd9a36fb3341218b7e9b0a724b48e"
+size = 336
+
+[[files]]
+path = "css/tests/selectors.in.css"
+sha256 = "4c4b0b238cb087bc55e9a52d956a4964facd2aed328c92124c0a2fea37022577"
+size = 234
+
+[[files]]
+path = "css/tests/selectors.out.css"
+sha256 = "63762063bb5fabd8b706e443ddd8d48f022db7dae10f31f4885fe28468b60ca2"
+size = 263
+
+[[files]]
+path = "html/configuration.rhai"
+sha256 = "8a2cc11c398c097f846cf13466882caba812f9da5b41bdeb204a0c78f226aa50"
+size = 268
+
+[[files]]
+path = "html/kinds.rhai"
+sha256 = "a9f23966729e1af82b36680eae3d1954e57328d1c9253bf474f58be7b2543994"
+size = 1156
+
+[[files]]
+path = "html/language.toml"
+sha256 = "931f9d148d1f50ec96eef66c6d3b09adaac3790d5b400d465237c074f5755bc4"
+size = 320
+
+[[files]]
+path = "html/main.rhai"
+sha256 = "896d846d4d775f4dd6e6296c571b9b9aa967b20eb4908af65f074337149a3e84"
+size = 11422
+
+[[files]]
+path = "html/tests/attributes.in.html"
+sha256 = "3162cca607332eb202924268366c046e20f9abe4f51df1ec22b533ceca2b77d4"
+size = 241
+
+[[files]]
+path = "html/tests/attributes.out.html"
+sha256 = "774c9e4bbe60fa496061577f4bb45d3e47ab7918fc30714249335c6f20ee988b"
+size = 260
+
+[[files]]
+path = "html/tests/doctype.in.html"
+sha256 = "df0e51fd598c0ddf9707d71b5c479e91594057ae5e94e5e2c1e6eb4321a637ea"
+size = 149
+
+[[files]]
+path = "html/tests/doctype.out.html"
+sha256 = "958573481fa5f001251e3e305296a19c52e8d31ef86f79811ec100277dde4bf8"
+size = 179
+
+[[files]]
+path = "html/tests/embedded.in.html"
+sha256 = "f1d3e4b16a8db59b88cfe7dc27702a544dceab251ed74528b2173ae28a2cc3e8"
+size = 237
+
+[[files]]
+path = "html/tests/embedded.out.html"
+sha256 = "5b365eedc08daf1e969c1893986e08a339ee9263cf832e8ba90a40de0f793822"
+size = 310
+
+[[files]]
+path = "html/tests/nested.in.html"
+sha256 = "107927114443826444b2b059147bfe50dde0a4f3ba103103c6c12a0e45e0d77e"
+size = 281
+
+[[files]]
+path = "html/tests/nested.out.html"
+sha256 = "33348b9df7cccf009675bf796ffdbe73c9fb48c9d3cc435cac3787aa8c96b772"
+size = 389
+
+[[files]]
+path = "html/tests/voids.in.html"
+sha256 = "da4c8ca64fea3889b416a5b0cc1ec97a2b57856c8931412160a4bdad3f9c402f"
+size = 99
+
+[[files]]
+path = "html/tests/voids.out.html"
+sha256 = "81b734ad91eec5dc4338d801b27130807b7a6fb7865d304bbcf28a0b33a0d429"
+size = 116
+
+[[files]]
+path = "java/comment_helpers.rhai"
+sha256 = "d54b51846aeea6f1b7ffe5b3f1ab56ec48132fc736cb17ce22605094ab2062e7"
+size = 634
+
+[[files]]
+path = "java/comments.rhai"
+sha256 = "b953171045ea64e18477745602ecce49a5388d0fc6f2dd277e8a527b4f2450eb"
+size = 393
+
+[[files]]
+path = "java/configuration.rhai"
+sha256 = "6da5719f060a250e353769213daadabf602950fa87f61feeb53e6922e852846c"
+size = 432
+
+[[files]]
+path = "java/formatter.rhai"
+sha256 = "7ffb533b084c38f375507d54aacfb475c1419fd4ed0b3f9d35ce1093780073b9"
+size = 88648
+
+[[files]]
+path = "java/if_else.rhai"
+sha256 = "3c4f48f65accc295e2c620a2180601d215b83289bd834bc4e8b1d0698265be60"
+size = 3999
+
+[[files]]
+path = "java/kinds.rhai"
+sha256 = "9f17fb0cd8355f09a601528714243fca2656c01cf43dcb5851df96f76dc4ef2a"
+size = 8415
+
+[[files]]
+path = "java/language.toml"
+sha256 = "468b271a8df3345497a2c25a7ae75d097f63b7ced316b51d739cd96bebc84a3f"
+size = 315
+
+[[files]]
+path = "java/loop_sync.rhai"
+sha256 = "cf9a247f789f61ff3c731601996b8e56dfaf06a51731fc2889ff0087e4f6b05a"
+size = 6827
+
+[[files]]
+path = "java/switch.rhai"
+sha256 = "bf716b41fdcaa9aca747916dc63fc3f11cacc88b427c1a077fffa266e8f8f27b"
+size = 5527
+
+[[files]]
+path = "java/tests/chain-error.ast"
+sha256 = "fd138b431743409ae5fac78950a89d9180549df8ff57ee6b971eb7e6e3b5bd3b"
+size = 1839
+
+[[files]]
+path = "java/tests/chain-error.in.java"
+sha256 = "0eac13a5187a442ab55f2eb6a6d60bc26a16ae276b61da01dec2d0306575556c"
+size = 157
+
+[[files]]
+path = "java/tests/chain-error.out.java"
+sha256 = "7cb0dafecc349dca673f8c1279b0d4bb1c52d980138e56558fa2433a2ceae735"
+size = 171
+
+[[files]]
+path = "java/tests/chain-lambda-spacing.in.java"
+sha256 = "120869c322d998358bf37e343f4f2ae78c36475f030b6c388c9a251088bc21e2"
+size = 167
+
+[[files]]
+path = "java/tests/chain-lambda-spacing.out.java"
+sha256 = "2d9a1ee28af49d39bdc15d9331fa863219dcb71c2f0ec5ac4a0f3d5172a324f7"
+size = 189
+
+[[files]]
+path = "java/tests/chain-type-args.in.java"
+sha256 = "11dabac42e690580506b01dcd921c9df29ad86d022b444ba3e81fe514bdbea02"
+size = 205
+
+[[files]]
+path = "java/tests/chain-type-args.out.java"
+sha256 = "11dabac42e690580506b01dcd921c9df29ad86d022b444ba3e81fe514bdbea02"
+size = 205
+
+[[files]]
+path = "java/tests/else-block-spacing.in.java"
+sha256 = "5e60cec706727205d98521792b9ca2b05d67039edcc0e4a38988d56985e237f9"
+size = 104
+
+[[files]]
+path = "java/tests/else-block-spacing.out.java"
+sha256 = "0ec1b4475d86485147cce067e49d3075626acf41ad8044138c0610a7db99636f"
+size = 134
+
+[[files]]
+path = "java/tests/else-if-multiline.in.java"
+sha256 = "32340b703aee91d1a8d8ab1cd294ad8a38e98102c67f66acc879011a617bd1a5"
+size = 186
+
+[[files]]
+path = "java/tests/else-if-multiline.out.java"
+sha256 = "575dd61ed470371e926c6a06a67314f68654936e601c06b7035904ca9143719d"
+size = 207
+
+[[files]]
+path = "java/tests/else-if-spacing.in.java"
+sha256 = "40c1c61218c6c22e67f7961371cd07bee841fe206cce4d6e891da6b309b8c058"
+size = 114
+
+[[files]]
+path = "java/tests/else-if-spacing.out.java"
+sha256 = "1534f3860ebe2e45c4d51d1cf075b4221fd077ae05eff606c771e217659e261d"
+size = 145
+
+[[files]]
+path = "java/tests/embedded-chains.in.java"
+sha256 = "63493adb6baf0b79a42a0dd5ae9cd272e10b37b719624c926a9d30162f9559b0"
+size = 720
+
+[[files]]
+path = "java/tests/embedded-chains.out.java"
+sha256 = "9f5327f6ec9e2065e51098c93a3cc26cea3e60f3564d73de3aeede60afa5e80b"
+size = 878
+
+[[files]]
+path = "java/tests/file.in.java"
+sha256 = "a78665cc739f3afe32ab486caad79b46dde7db3dd6da2f14242a50f3ab382810"
+size = 3342
+
+[[files]]
+path = "java/tests/file.out.java"
+sha256 = "0a8f255c6dce448eb8f32676176e165b59690c3d8fa9e2659711b88f21bae6c2"
+size = 3334
+
+[[files]]
+path = "java/tests/formatter-loop.in.java"
+sha256 = "28101043a52404f5ac599d074dda3668cdd14f7531ace0ef406abab8b8b1eb71"
+size = 488
+
+[[files]]
+path = "java/tests/formatter-loop.out.java"
+sha256 = "c04605e8c6b5caa9de48bdd36a47f9fb4b8d8dd787d5a97bddf03812ec203863"
+size = 521
+
+[[files]]
+path = "java/tests/generics-spacing.in.java"
+sha256 = "c6b265fd22f9f945c2884abfb0d0444a528cc879594fcbd18960364935d2f4a8"
+size = 561
+
+[[files]]
+path = "java/tests/generics-spacing.out.java"
+sha256 = "29ade115baea893a889538207132807d7ff90261bb18ff3ddb1d359fe028712d"
+size = 524
+
+[[files]]
+path = "java/tests/if-else.in.java"
+sha256 = "8856ee6913484595e10f434a4dfa2653319b772bd20300ad3b334d8ac4d1d023"
+size = 151
+
+[[files]]
+path = "java/tests/if-else.out.java"
+sha256 = "d70fc25b8c766dfba837c62182f8e65c5b5a7369c94b6b687da6c0db2a8eca27"
+size = 187
+
+[[files]]
+path = "java/tests/lambda-arg-ternary.in.java"
+sha256 = "097147cba8486fc2b810a69db964817bd05c8432ac9bba94130fa4cb1a19a83b"
+size = 157
+
+[[files]]
+path = "java/tests/lambda-arg-ternary.out.java"
+sha256 = "a76716273126d3f3d8392f7b5b2a30ad89bd7bf0f758ba1abd4f6ea15196782f"
+size = 171
+
+[[files]]
+path = "java/tests/lambda-cast.in.java"
+sha256 = "9ace4eea2c4b25eaa0c645eebf7270c45bb67561599ad76278ef5dc5857efad8"
+size = 151
+
+[[files]]
+path = "java/tests/lambda-cast.out.java"
+sha256 = "ac1a23dbe29317b7ee53d69759d7607e9961eed1e6f923ab882c5751579b4c64"
+size = 156
+
+[[files]]
+path = "java/tests/lambda-nested-parens.in.java"
+sha256 = "b54229a298425004a9f4c5604b929a0ebb9e56081fc620684c91ff4738aa0f67"
+size = 145
+
+[[files]]
+path = "java/tests/lambda-nested-parens.out.java"
+sha256 = "62ae774524a1af955c8e6b4e6fee11e00ff352334342ce83b44b37952a80225e"
+size = 151
+
+[[files]]
+path = "java/tests/lambda-parenthesized.in.java"
+sha256 = "410249d65eea3c85a1aa4ca8301e9baa030db9e1720e0f08fccd6d7a8f458edd"
+size = 144
+
+[[files]]
+path = "java/tests/lambda-parenthesized.out.java"
+sha256 = "0d6739f69639aed0683584793fa1be90c2acba97683d0dc0b4ce1290aec340bb"
+size = 150
+
+[[files]]
+path = "java/tests/lambda-ternary.in.java"
+sha256 = "da0461484ae7d28d62e62f0d7e3a202238723efd41ca0f0a6f271483c1402360"
+size = 145
+
+[[files]]
+path = "java/tests/lambda-ternary.out.java"
+sha256 = "3a5036157fb114eadb14d8dc69b1a43ea396f8ca538d80142d8ec10df8cf1ea9"
+size = 157
+
+[[files]]
+path = "java/tests/lambda.in.java"
+sha256 = "da400d497ecfd8bf4f8cb840475f4ffd486c8bffa1efe63812730afad1eab2f9"
+size = 488
+
+[[files]]
+path = "java/tests/lambda.out.java"
+sha256 = "547a5a54bf7fc259f2d287e25648c49c2a3e44643959e4d767c9e0cbe5804abd"
+size = 561
+
+[[files]]
+path = "java/tests/line-comment-brace-mix.in.java"
+sha256 = "a77b0748fe5cffe35683fe8e8d9409cc8333b5561d540d6738cf6ded69f933c1"
+size = 446
+
+[[files]]
+path = "java/tests/line-comment-brace-mix.out.java"
+sha256 = "a709e70c4602224b150e5cf8835b0798a965c2902e47f6ab336db75a5e584d35"
+size = 516
+
+[[files]]
+path = "java/tests/logical-chain-lambda-nested.in.java"
+sha256 = "232cc9a2818389e9d8da0084dfe4e1f74ed68e8feb464018380869222a5b8546"
+size = 394
+
+[[files]]
+path = "java/tests/logical-chain-lambda-nested.out.java"
+sha256 = "50b49a4da9c3e47e46fc5d340b737a3845501082087f92c435f521b581272acb"
+size = 439
+
+[[files]]
+path = "java/tests/logical-chain-nested.in.java"
+sha256 = "510992cb09f754d51fd1697523e7c23536f6e96226cce4bb9bd0ed35542b7a6d"
+size = 434
+
+[[files]]
+path = "java/tests/logical-chain-nested.out.java"
+sha256 = "a6680ce42e8dbdaa760909071ee6e20407e8743f9001e6b9292c5cadc685be71"
+size = 479
+
+[[files]]
+path = "java/tests/long-string.in.java"
+sha256 = "b3daf946e8f57dac248d6de1c7272aaba99c8642998f568a77503b70db37a655"
+size = 379
+
+[[files]]
+path = "java/tests/long-string.out.java"
+sha256 = "76d1f79a11f911879427961cb894d493ae185879f3c7cf303d70ee03501e8174"
+size = 410
+
+[[files]]
+path = "java/tests/method-reference-chain.in.java"
+sha256 = "204eee78e8da3f66b91e7d56a35d83acad93767775f2f429b6bd14d7601c2e86"
+size = 201
+
+[[files]]
+path = "java/tests/method-reference-chain.out.java"
+sha256 = "02c438d8bf3979cf0be165d4a7ae0fdc88957ab0808a396b0cfe5b2f5a7b83e6"
+size = 219
+
+[[files]]
+path = "java/tests/paren-chain.in.java"
+sha256 = "c39101589cbb9f4c6454f3f594b21d5ef7fd2f4805b93e702e63356436d810ca"
+size = 718
+
+[[files]]
+path = "java/tests/paren-chain.out.java"
+sha256 = "9449d077a1fd7304f81a0ba36db00be45a71dae80b4be979203381aae2bda1e4"
+size = 816
+
+[[files]]
+path = "java/tests/rewrite-coverage.in.java"
+sha256 = "89eb84f72b6593936d3f0939091b71f5a5a5fdcac9df2f7d80f7fe3d1b1c9353"
+size = 441
+
+[[files]]
+path = "java/tests/rewrite-coverage.out.java"
+sha256 = "445f00489257a62e01c4237b3357107a820c7846df7c284de66de37156736a34"
+size = 562
+
+[[files]]
+path = "java/tests/switch-break.in.java"
+sha256 = "4de1bee9c145e84924d2d0134a33e5526f19fe2b3ec3844c23b0e1af53812aaa"
+size = 120
+
+[[files]]
+path = "java/tests/switch-break.out.java"
+sha256 = "796465695d951a859649cd12f882da46ef413d014861caeab388aae3f96e09a3"
+size = 155
+
+[[files]]
+path = "java/tests/switch.in.java"
+sha256 = "7ebdc7bdc169f2502b38924f8690e0e6dc5f144d57470ce26a4e21510e5d1be0"
+size = 115
+
+[[files]]
+path = "java/tests/switch.out.java"
+sha256 = "2c1511b637ab94e358b580022fbeb28407c7eb1f33bd1f1e9255f7856d0b6847"
+size = 147
+
+[[files]]
+path = "java/tests/ternary.in.java"
+sha256 = "4fb5ee2408aa0c3bd341b80702af11727c64a0e5d21e5ae470064b8ecd0c5cff"
+size = 695
+
+[[files]]
+path = "java/tests/ternary.out.java"
+sha256 = "fedc439f137e18fda9d7dccc175ba9d34f18b03dc8129d00e0753be3a9e563f5"
+size = 763
+
+[[files]]
+path = "java/tests/testcase.in.java"
+sha256 = "53c622ac5f8d588663db3082534382f61da35d120854019fd6b744312ad58047"
+size = 5102
+
+[[files]]
+path = "java/tests/testcase.out.java"
+sha256 = "568e7a7368aa0bdc2de81f9784f610dba55abbed6e4f0d49df1890aae30070c9"
+size = 5359
+
+[[files]]
+path = "java/tests/trailing-space.in.java"
+sha256 = "5f8190c92d78136403833fb0e06fefbd3b82b29608f0bae33b50a0b43c63a921"
+size = 55
+
+[[files]]
+path = "java/tests/trailing-space.out.java"
+sha256 = "5619649277be8237ecb1961a1c425f9337a49f6b76c60394fc33352459694a9b"
+size = 58
+
+[[files]]
+path = "java/tests/try-catch.in.java"
+sha256 = "b7bd1691bb675c9c565b158af6d573cad47560e7a29e926c9ea57eddc3fcad8d"
+size = 321
+
+[[files]]
+path = "java/tests/try-catch.out.java"
+sha256 = "b6a0e43e17abfaeca0b261e35433589df3ffa859d9400742c289d2f7884ed9df"
+size = 370
+
+[[files]]
+path = "java/try_catch.rhai"
+sha256 = "78c35aa920d2badb8c38663fc4a95df47485c1c11fa4cf69457dd3eda8637e54"
+size = 5641
+
+[[files]]
+path = "java/whitespace.rhai"
+sha256 = "d0c3b7eca80d64c9d3122ae27d585321973596695ccd7fd149ead2cda7ca5eee"
+size = 1370
+
+[[files]]
+path = "json/configuration.rhai"
+sha256 = "26c16a299614e182808121c679ecd1b222640fee60c6b4db70c71b4489ab5c64"
+size = 268
+
+[[files]]
+path = "json/kinds.rhai"
+sha256 = "4244077ba804c595d9ecd00abfc740302dc1812ec3f1962dd2479e39c9510d84"
+size = 813
+
+[[files]]
+path = "json/language.toml"
+sha256 = "8ae7f890342791fd0f18380ef841401dacaee2e1b3cf966dea904f2dd87e4db5"
+size = 275
+
+[[files]]
+path = "json/main.rhai"
+sha256 = "9237f60c35f9ecbd54842f7519b6d1c5f15b0d5a984611d6b06cc807b70bb90d"
+size = 4838
+
+[[files]]
+path = "json/tests/arrays.in.json"
+sha256 = "f061c7fcd45a51cd4db9e3264cab59f2c89ad785c0e728d8ec00481b3da95bd2"
+size = 89
+
+[[files]]
+path = "json/tests/arrays.out.json"
+sha256 = "69aafc9bbe1aad475501a5497dcf6cbb38738a54addd2e2af112309fdd9b81e3"
+size = 190
+
+[[files]]
+path = "json/tests/basic.in.json"
+sha256 = "1b56fddf6777c1853888ed73b85f135166c00fea50d8b2f9eb05839242c42659"
+size = 127
+
+[[files]]
+path = "json/tests/basic.out.json"
+sha256 = "5904e7bbb38cabb28079cc7a232c109cb5e4d6e63e2bb369a899f6e61747b32c"
+size = 165
+
+[[files]]
+path = "json/tests/nested.in.json"
+sha256 = "81de623c4b37521386536e40150379e7dd41f7306b2a2bb11e0f90768e5e8a8e"
+size = 111
+
+[[files]]
+path = "json/tests/nested.out.json"
+sha256 = "206c888a3e698dc7ab30fc6551b06736c2e7c64c13da3f2720650f3668f2f78d"
+size = 207
+
+[[files]]
+path = "json/tests/short-arrays.in.json"
+sha256 = "b752383683c806c1fa62ecc608fc23f5f1be06328af6274b703d68ac30f90160"
+size = 56
+
+[[files]]
+path = "json/tests/short-arrays.out.json"
+sha256 = "7f8266ba786c2e7acc85cc3ebb7bc2a6fbce0ee3a420ab9b8f743ace53b76116"
+size = 90
+
+[[files]]
+path = "markdown/configuration.rhai"
+sha256 = "38a09ac9c2900f6acfc44a1e3418040e26e8c4212b1e2336aad38bafad1cb686"
+size = 272
+
+[[files]]
+path = "markdown/kinds.rhai"
+sha256 = "eb27830ed38830bd8ca8bc10dd1f3dc771f9df01d41586eddf414ae9194ab9cd"
+size = 1403
+
+[[files]]
+path = "markdown/language.toml"
+sha256 = "4248982faba52caa4fc529c9ec6c6e7c748569f4184ad1b1b913fe07dc89b1b4"
+size = 301
+
+[[files]]
+path = "markdown/main.rhai"
+sha256 = "d408893ac256275d8147c934e43883ec9ba9f93e2a9168503b44bfef683a7aa3"
+size = 5498
+
+[[files]]
+path = "markdown/tests/blocks.in.md"
+sha256 = "148515e7ddabdc75e91e2eac7a4384240b0aaebb94af40194252f266fb28f7d6"
+size = 118
+
+[[files]]
+path = "markdown/tests/blocks.out.md"
+sha256 = "aeb06a34f2e2f146ec4a488fab408d76be5494630846d1c03ec7b42471287913"
+size = 123
+
+[[files]]
+path = "markdown/tests/fences.in.md"
+sha256 = "3695a0baf15bc988a42f5421f2f9b3bc33968a37a6e5d576848d1e862da8e14e"
+size = 109
+
+[[files]]
+path = "markdown/tests/fences.out.md"
+sha256 = "a114c1faef27e8a426798d5ca48e67fa8d365ade5b59b0f24032133d4a30cae8"
+size = 112
+
+[[files]]
+path = "markdown/tests/links.in.md"
+sha256 = "43c614a53c3e26e50fe9f571b1c15d847cde953e885cae7fbb3da50a38fc1b29"
+size = 124
+
+[[files]]
+path = "markdown/tests/links.out.md"
+sha256 = "fff6c74975a552e6cd60e27a91c2dab36b5b440d8abd6f6d0e0d5bf306c4c17d"
+size = 126
+
+[[files]]
+path = "markdown/tests/nested-fences.in.md"
+sha256 = "68f00c5316a9e1c308db6cc2e67f2fead574bb61365382906cb01e6e2f9d89c4"
+size = 374
+
+[[files]]
+path = "markdown/tests/nested-fences.out.md"
+sha256 = "f4843908c892eb120a6d48d333f89511b72b73ed7dfbcc0f7503ad588a2760eb"
+size = 396
+
+[[files]]
+path = "rhai/configuration.rhai"
+sha256 = "137cbb4ffe2a8a7e1030b5999aef4efd4e7eced71a3480d30e8427ca661d1f69"
+size = 268
+
+[[files]]
+path = "rhai/kinds.rhai"
+sha256 = "e05b41e60606dcf2fcbf95b1efd875030d2a7fa368ea812f9f411fb7f6f47090"
+size = 11791
+
+[[files]]
+path = "rhai/language.toml"
+sha256 = "f23b1ea170329bb2259972ae42e4352a916c64798fe7f7c5868affb3cd00c2b8"
+size = 360
+
+[[files]]
+path = "rhai/main.rhai"
+sha256 = "a67d30166b819df483654902c73fb6d0cc5a8ca11aa7b719d7e8207da2ebfdda"
+size = 59155
+
+[[files]]
+path = "rhai/tests/arg-chain.in.rhai"
+sha256 = "176b5464bb1dbdf644c6609f78605e0de87b7f84cc4cd6991cd867849f77c3ca"
+size = 105
+
+[[files]]
+path = "rhai/tests/arg-chain.out.rhai"
+sha256 = "3d3a2c73cdce450baa41261884913f23200b1dc6acfb420720b1cae639d55420"
+size = 121
+
+[[files]]
+path = "rhai/tests/basic.in.rhai"
+sha256 = "b7dab702cb0f1b38148734256ec81da45ee57c6773aebe626183f512a5c21d76"
+size = 47
+
+[[files]]
+path = "rhai/tests/basic.out.rhai"
+sha256 = "67a3a7d6c651b76023b14311ef985272c833d77b83a6620a89ec99d7ca8c8ae7"
+size = 59
+
+[[files]]
+path = "rhai/tests/chain-in-fn.in.rhai"
+sha256 = "384758ac0f80efe94f1d6e2a63742983db2201b23e43269f92c121889cfc1b68"
+size = 226
+
+[[files]]
+path = "rhai/tests/chain-in-fn.out.rhai"
+sha256 = "ea7210cb696babc895964c84498382fd1b8069f285102b84166a11b59fd8b5d4"
+size = 278
+
+[[files]]
+path = "rhai/tests/chain-preformatted.in.rhai"
+sha256 = "513c5782ab5d8454113fc69fb03d8db2f614be603a430f7c08bf48e50d721950"
+size = 154
+
+[[files]]
+path = "rhai/tests/chain-preformatted.out.rhai"
+sha256 = "9974e3dfbc857b52054fc7cb1831ca2e3aba91e58ed2b3469530b68683b207d1"
+size = 164
+
+[[files]]
+path = "rhai/tests/comma.in.rhai"
+sha256 = "ea22c64108ddd7c2bc33be4be61ed070517e584d51cf9cf3f5fdab496d892621"
+size = 113
+
+[[files]]
+path = "rhai/tests/comma.out.rhai"
+sha256 = "ea22c64108ddd7c2bc33be4be61ed070517e584d51cf9cf3f5fdab496d892621"
+size = 113
+
+[[files]]
+path = "rhai/tests/commented-field.in.rhai"
+sha256 = "d50940fae6c10aff8e754535bb182c10ed234f117165feb40bddee66761544ea"
+size = 265
+
+[[files]]
+path = "rhai/tests/commented-field.out.rhai"
+sha256 = "62d9d2919679ddad761317164c8482f2e61f1d5274adeb8988e6a59194f3b172"
+size = 211
+
+[[files]]
+path = "rhai/tests/comments.in.rhai"
+sha256 = "f2d5b5e02260218d1fc8dfc8c75efef119d8845c2a4a845d0c13b4648698d9c9"
+size = 1347
+
+[[files]]
+path = "rhai/tests/comments.out.rhai"
+sha256 = "4962fb4ad91674e870dd620f24cb93ad26a317d764fd8d70db1efd56354a620e"
+size = 1238
+
+[[files]]
+path = "rhai/tests/defs.in.rhai"
+sha256 = "aa53beb0d79fbd9d69064d291d0c674cee4e26557bfcf115ecc46efde5d72c9a"
+size = 79
+
+[[files]]
+path = "rhai/tests/defs.out.rhai"
+sha256 = "d1d334f46aa5c2bf9da9c3a56d52b12cc5ee325284d2ce81f9ad0bf3c035824e"
+size = 81
+
+[[files]]
+path = "rhai/tests/do-while.in.rhai"
+sha256 = "92e9dd3b55f6715754c531ba53e1c27bc64200a166e3ebd6fe160b82de5d9ee9"
+size = 20
+
+[[files]]
+path = "rhai/tests/do-while.out.rhai"
+sha256 = "bac3e5e69af44882ada55aed007707010381ebc315ad06e13a9dcb4829356291"
+size = 27
+
+[[files]]
+path = "rhai/tests/else-if.in.rhai"
+sha256 = "685ea1b3f8f9edb27185d2fa45425892350c6d1d051c7bd26996979fcdccbe2e"
+size = 49
+
+[[files]]
+path = "rhai/tests/else-if.out.rhai"
+sha256 = "3ac88797a41a475cda4bb173f32b3a2dd4ec48c2b955dd6cc3a22ad97f798afc"
+size = 64
+
+[[files]]
+path = "rhai/tests/export-ident.in.rhai"
+sha256 = "4247a8ebeef6b1d9709ed9d6402bd93649f67d2a77f0480f8fedbad4991131f4"
+size = 30
+
+[[files]]
+path = "rhai/tests/export-ident.out.rhai"
+sha256 = "452d98c0c91fc507aa6221053b76b0226c76be80f39fe8e309e7fe9905052459"
+size = 25
+
+[[files]]
+path = "rhai/tests/for-array.in.rhai"
+sha256 = "ad28b6152ea36c94dcb53343793c880aec788929d3ee0e15f9498bad4f990eec"
+size = 26
+
+[[files]]
+path = "rhai/tests/for-array.out.rhai"
+sha256 = "1e6b125263452c3c7cd9589f695e58b20deb312162e708c27609086041e714c6"
+size = 34
+
+[[files]]
+path = "rhai/tests/functions.in.rhai"
+sha256 = "8f25da06d45e24c62f27122f685d768117797c9cb503e44a599a1c423a75eab2"
+size = 98
+
+[[files]]
+path = "rhai/tests/functions.out.rhai"
+sha256 = "7eaae21a8847eb1a015f447cd2cc3508f30dd73694451682ac42d1036d0416cf"
+size = 129
+
+[[files]]
+path = "rhai/tests/long-chain.in.rhai"
+sha256 = "1a26c0dfe76d9bcfd1ad4dd75c332aa7b36359f6b318d58036441a33703fdb22"
+size = 123
+
+[[files]]
+path = "rhai/tests/long-chain.out.rhai"
+sha256 = "5f8a3b6baac64d235d5fd7c38b196e4c723ee7193c48f93544549331b0914249"
+size = 139
+
+[[files]]
+path = "rhai/tests/loop-break.in.rhai"
+sha256 = "fe9012676d305a18c03eea424c512a2a96f0d6cb3c26f98fad305ee21272fd22"
+size = 33
+
+[[files]]
+path = "rhai/tests/loop-break.out.rhai"
+sha256 = "b0068d413c7166a598c9faeae3f96dce9fd52f17d4a31b9b26f47028268d47c3"
+size = 47
+
+[[files]]
+path = "rhai/tests/method-chain.in.rhai"
+sha256 = "f4c9d99f840e3f6412b1922ff9713c5099cd4a922ad2867b086d2ea5c25a237c"
+size = 33
+
+[[files]]
+path = "rhai/tests/method-chain.out.rhai"
+sha256 = "d88ba8a84faec53543389a76d562407a015852aa5a7772aea011b73a37dee564"
+size = 38
+
+[[files]]
+path = "rhai/tests/nested-chain.in.rhai"
+sha256 = "59eeb0c1b6bfe6e29601c74400b15052b43d33230b22f21454f75bd30eb7a1ec"
+size = 113
+
+[[files]]
+path = "rhai/tests/nested-chain.out.rhai"
+sha256 = "51870976972583c7745d66f4607f71ffa56aaa201b8ce8be8401ba958ca67113"
+size = 143
+
+[[files]]
+path = "rhai/tests/random.in.rhai"
+sha256 = "c8ab70d38844831705950adafc29b3ca4bea22dcdb73ff58f255cca57801a953"
+size = 342
+
+[[files]]
+path = "rhai/tests/random.out.rhai"
+sha256 = "aa1e5fdb5eafc20f64f8aaa083fa6e34994b1b110476aa84c3034eb5f212feff"
+size = 315
+
+[[files]]
+path = "rhai/tests/string.in.rhai"
+sha256 = "47d2e672b35958eab33c5409b4efb9f9080ada8938121c52ae3558c571d03b36"
+size = 196
+
+[[files]]
+path = "rhai/tests/string.out.rhai"
+sha256 = "1fb630aebbfe8c482e0e3017e6a7735a38777950ff64ace8569e3a079074cd87"
+size = 166
+
+[[files]]
+path = "rhai/tests/try-catch.in.rhai"
+sha256 = "f64f0738122dc4952e54f41e0b647c8ce7cbd234bf7b423f51d2e1f26a831dd8"
+size = 29
+
+[[files]]
+path = "rhai/tests/try-catch.out.rhai"
+sha256 = "69904b9dd73da51820970c971e8a272b136a550ca826b1b5c176ca3b55a7b632"
+size = 38
+
+[[files]]
+path = "rhai/tests/types-long.in.rhai"
+sha256 = "2bcf8a9299dcc104350e5e3988af61cd0fe1e59d892a55a97407bfa4837f745b"
+size = 249
+
+[[files]]
+path = "rhai/tests/types-long.out.rhai"
+sha256 = "e9e7afe044401404a4c7cb65caac34ae2005e49ed634b638875a25a6bf7ced95"
+size = 261
+
+[[files]]
+path = "rhai/tests/types.in.rhai"
+sha256 = "192aca915b52af682f7b49d7030538384514c7c1318131a9dd1aa5541efd54df"
+size = 162
+
+[[files]]
+path = "rhai/tests/types.out.rhai"
+sha256 = "c2d7ae1b3e6a71b6cfd244d6709fd630288e35dcb896536cd627eec30cf1c648"
+size = 195
+
+[[files]]
+path = "rhai/tests/var-chain.in.rhai"
+sha256 = "6b3c6129919ee8d4d713ca9ed396b0618b9366176da9ad0d0dc7e1d6a2decf76"
+size = 117
+
+[[files]]
+path = "rhai/tests/var-chain.out.rhai"
+sha256 = "aebac17f68440ee62a1f33da00805f9dd0d0d1c84975ce39f8a14f49d8439376"
+size = 137
+
+[[files]]
+path = "rhai/tests/wrap-array.in.rhai"
+sha256 = "d4c9410a3ebc686ab889c6e83d81de144ac69bf1a55b6cd80a4ff8b2d71e2e04"
+size = 528
+
+[[files]]
+path = "rhai/tests/wrap-array.out.rhai"
+sha256 = "4908ca105220d9220b7b56a2a6752f13b17277b498fed93adee1189951e65cad"
+size = 474
+
+[[files]]
+path = "rust/configuration.rhai"
+sha256 = "ddc1514b477e313a42d9adbd5cf149014a30fbe14bd3c38cf2b900da2bdd17ab"
+size = 268
+
+[[files]]
+path = "rust/kinds.rhai"
+sha256 = "aaa57d6f2ed371ef0d82cff3712f0a40ed283e6f760ec3e16118105615618ba0"
+size = 11777
+
+[[files]]
+path = "rust/language.toml"
+sha256 = "4deb67a85e76623ad25b0e54a79fa5bc4fc483c9601d7a1e392aedaef5148b5e"
+size = 310
+
+[[files]]
+path = "rust/main.rhai"
+sha256 = "400a0a7f8574d431f9d460bbe1940c08daa7230d0995fc9d1d2836856a1f63ec"
+size = 96969
+
+[[files]]
+path = "rust/tests/assignments.in.rs"
+sha256 = "79c758754d67020526aaf0b54c9c3ef0c1977147feb4c78c6e9b3f869da33e4b"
+size = 59
+
+[[files]]
+path = "rust/tests/assignments.out.rs"
+sha256 = "b941c5cdd9eafe66a61291c9c069f20e9023370799961f195d0193ddef4c8bc3"
+size = 77
+
+[[files]]
+path = "rust/tests/attributes-macros.in.rs"
+sha256 = "f5f9ac45d257bab739c39e8e8185d42dc509fdda91c690f1587be50224c43db6"
+size = 129
+
+[[files]]
+path = "rust/tests/attributes-macros.out.rs"
+sha256 = "21a25c682d2dcae0622ddab9f087799b67d7bf612c8a086a88d8d5c6844bed49"
+size = 126
+
+[[files]]
+path = "rust/tests/brace-reflow.in.rs"
+sha256 = "52ac74b39dd952623acb4fa35eeec797fb1be5220a3b67fd07d6727f0343a141"
+size = 41
+
+[[files]]
+path = "rust/tests/brace-reflow.out.rs"
+sha256 = "8b6e206ed4affbd5b0ba7d885fe9a7ef75a7eabc9f09063abff54014da55acb6"
+size = 46
+
+[[files]]
+path = "rust/tests/chain-wrap.in.rs"
+sha256 = "a4e0c650f1e00ea737b9109d3f43bbcb949ddc1cd776d3bd04f08944948f7903"
+size = 355
+
+[[files]]
+path = "rust/tests/chain-wrap.out.rs"
+sha256 = "3cc8dfef192f997aeb3f718dc5e5610267e5257ac8dbcd3399ae2eb7d9bbd8dd"
+size = 328
+
+[[files]]
+path = "rust/tests/chains.in.rs"
+sha256 = "db5eaef46330f9ca9f6cd9b1e7f98b62154644ec75ea921737fa68af7e03f607"
+size = 149
+
+[[files]]
+path = "rust/tests/chains.out.rs"
+sha256 = "f614a49f0058adfde16fff30b88d3ef6f469b16032123ebb7144c473c01c53e0"
+size = 180
+
+[[files]]
+path = "rust/tests/closure-block-stmt.in.rs"
+sha256 = "0b7456461c42d76e16c3c994435b2a1a317910446d48e6fca08d9e589eb2a422"
+size = 70
+
+[[files]]
+path = "rust/tests/closure-block-stmt.out.rs"
+sha256 = "17d783c3fcb083d6152508dc51b14e91d51ef09e9c820e8de810aa4cf50bcac2"
+size = 64
+
+[[files]]
+path = "rust/tests/closure-inline-block.in.rs"
+sha256 = "13734e738f6c5a76aec56938cbae78b82e07df9a4097e158a1531da922e6d3af"
+size = 52
+
+[[files]]
+path = "rust/tests/closure-inline-block.out.rs"
+sha256 = "bf34bf4e21f9ea48f79888fb4dc19c9e3a56cd12fc346a180bdcd33e5e4cb151"
+size = 49
+
+[[files]]
+path = "rust/tests/closure-inline-ref.in.rs"
+sha256 = "1a5682fb9e721349f853ac523557111e901210f1bdb98efce28eaf1f6633d956"
+size = 111
+
+[[files]]
+path = "rust/tests/closure-inline-ref.out.rs"
+sha256 = "d2152d5a86bda2990abe81cc5692814d138fcdbff49669880d1b41bb637f767b"
+size = 110
+
+[[files]]
+path = "rust/tests/closure-long.in.rs"
+sha256 = "59087943d25d8754b25ba12afc0d77ae347426d8bdaeef75027749873a38dea0"
+size = 1435
+
+[[files]]
+path = "rust/tests/closure-long.out.rs"
+sha256 = "04eec7134fa68b596864216e527d40568040a26c1db64a7990283d2c2af905cd"
+size = 1065
+
+[[files]]
+path = "rust/tests/closure-long2.in.rs"
+sha256 = "1cb95edcd38321db0d63a78bebffe933e4dd1779e2682f0333feb3469e5cf908"
+size = 5050
+
+[[files]]
+path = "rust/tests/closure-long2.out.rs"
+sha256 = "0447819e52ea8b191795b6a457441f33b7983f174743185d23ef8f2a6f9c0df7"
+size = 3384
+
+[[files]]
+path = "rust/tests/closure-params.in.rs"
+sha256 = "c6fb60c43101675e5a68041fdf85b6e3b2aac9977293e942b76a780433a939af"
+size = 102
+
+[[files]]
+path = "rust/tests/closure-params.out.rs"
+sha256 = "b14335d4e34160aafa4ac3fcfacc39488fb200783bb59a8f1b31fdb0b816f19e"
+size = 99
+
+[[files]]
+path = "rust/tests/closure-test.in.rs"
+sha256 = "7525565b6f04e98d11f32208533fe77c165f0b29941a8035fad8d161d202ef92"
+size = 148
+
+[[files]]
+path = "rust/tests/closure-test.out.rs"
+sha256 = "132b01a030d8e6fabcaffa95dbe6d0bb988e00445a226895bcd8ae87974963bd"
+size = 151
+
+[[files]]
+path = "rust/tests/closure-unary-block.in.rs"
+sha256 = "6fd24dcc7dd304e9777d5dc628400bedd83fc15579d9659994bbf210a95ba0ef"
+size = 51
+
+[[files]]
+path = "rust/tests/closure-unary-block.out.rs"
+sha256 = "08ea95be5a9875c6a10f525f0ff0d32451b35787bbfdf203d464ec00280f619a"
+size = 46
+
+[[files]]
+path = "rust/tests/closure-unary.in.rs"
+sha256 = "4629747f5375eb327f29b585ca92b5c32b2de09cf6092f6417bf4881d82ee10f"
+size = 43
+
+[[files]]
+path = "rust/tests/closure-unary.out.rs"
+sha256 = "8b4a7ec9ce444f3ca1956bacb0c0ddc7a89ece0eac59a079b8a01a784f1f7040"
+size = 40
+
+[[files]]
+path = "rust/tests/comments.in.rs"
+sha256 = "a727b12a64b3fcd602d4bf367acfabb18896142ff967b885c5feda8fb23d533e"
+size = 240
+
+[[files]]
+path = "rust/tests/comments.out.rs"
+sha256 = "02d3ace29e61b0c23a1c7b87055f0af0512d82135bd674a32169510b0e8a9e7d"
+size = 249
+
+[[files]]
+path = "rust/tests/core-exprs.in.rs"
+sha256 = "dfacfc391c25d8cd66280911f34a37a8e48757c15454bf09aba18c91205b6561"
+size = 290
+
+[[files]]
+path = "rust/tests/core-exprs.out.rs"
+sha256 = "9ee2f66f8aebe67d1b2b4a7e07f5c2c45a8f7a7c805518616a1b133862636dbd"
+size = 359
+
+[[files]]
+path = "rust/tests/diff.summary.in.rs"
+sha256 = "216b44efd2a35c051baf9ec8b003368ee57e686f96733833a644e39939879b39"
+size = 1673
+
+[[files]]
+path = "rust/tests/diff.summary.out.rs"
+sha256 = "6bb668dd53104a774e2e9c9832e1adc89096ddf8afb23839f5baf32ed7443ba6"
+size = 1355
+
+[[files]]
+path = "rust/tests/enum-variant-attribute.in.rs"
+sha256 = "b9e48fa609b30ac5b600d333264383a112d24c6043686f0e3fa05ba2e1d2a02d"
+size = 113
+
+[[files]]
+path = "rust/tests/enum-variant-attribute.out.rs"
+sha256 = "0e02442a7e2dfb5aa0212d5516e1cd7344527bf44f48c211c134810e5978e3f6"
+size = 103
+
+[[files]]
+path = "rust/tests/if-else.in.rs"
+sha256 = "8435ba9c6045a05d08da4255526ea1593f32c16f430f52620d02b75f09795e33"
+size = 69
+
+[[files]]
+path = "rust/tests/if-else.out.rs"
+sha256 = "0cb55e8a0b91c5d39af90e001278533e34454647ffc3a5139efa24430d8d1b6f"
+size = 88
+
+[[files]]
+path = "rust/tests/if-let.in.rs"
+sha256 = "573c443065b6af978b4f843c4b50591e00e63c0426aa12485032298bb7fb8ff4"
+size = 63
+
+[[files]]
+path = "rust/tests/if-let.out.rs"
+sha256 = "af8fb1e16bc36d0ba8c969add2788a993a4d9ac9811f51eb9975e38b78bce6e0"
+size = 83
+
+[[files]]
+path = "rust/tests/impl-items.in.rs"
+sha256 = "60093ac91c981b02e162ef1667647a921071c35d59b39e43f28ac59691c64131"
+size = 157
+
+[[files]]
+path = "rust/tests/impl-items.out.rs"
+sha256 = "1ef450354d2d23617e900e75e19147ede7151306bb57dd571bba5d119542fa1f"
+size = 108
+
+[[files]]
+path = "rust/tests/inline-attribute.in.rs"
+sha256 = "483784d9d111885fd8e69dd05d6d8d4f90279245cdf452a9320ccc25eab578f4"
+size = 315
+
+[[files]]
+path = "rust/tests/inline-attribute.out.rs"
+sha256 = "07d527e1f75ebc8b5d9abc9fb0fee43f5b1d64ca0d500d31079b94c3bfbfa364"
+size = 269
+
+[[files]]
+path = "rust/tests/long-string.in.rs"
+sha256 = "8690227264602d2276f873995a2ad6f18de4de1eb6d88ba82a38c855611286c3"
+size = 126
+
+[[files]]
+path = "rust/tests/long-string.out.rs"
+sha256 = "ab4b026eb9280a64c6876f78203092559594f2c623bdecfd017d3ea48efd1fb6"
+size = 133
+
+[[files]]
+path = "rust/tests/match.in.rs"
+sha256 = "e20d1df5dd87b4771ae9c20cc9f59bdc5d301015f5fe15029ef12150ecc815f0"
+size = 55
+
+[[files]]
+path = "rust/tests/match.out.rs"
+sha256 = "6b4954d189c7a27ad45bd83b40a805787570bdd6cad5d392403a616f552b5130"
+size = 81
+
+[[files]]
+path = "rust/tests/missing-items.in.rs"
+sha256 = "ca2e0c5757f4a54ba16a95bc81df47d72af96ca88b40629e0295b65a2e51d822"
+size = 320
+
+[[files]]
+path = "rust/tests/missing-items.out.rs"
+sha256 = "78ca26eba235efc3b2ec295c76188c020790224d6f25f322ab875fe0effbf23e"
+size = 300
+
+[[files]]
+path = "rust/tests/mod.in.rs"
+sha256 = "518a905d1504edba86f494b9410277bc8ac3fc9afe3ea68e1c995a1d7b647455"
+size = 195
+
+[[files]]
+path = "rust/tests/mod.out.rs"
+sha256 = "1758cc746e04a66269eb52ab6f1ee6cbf16b3e7e4f50c879621dd9c2d2f4302e"
+size = 190
+
+[[files]]
+path = "rust/tests/more-syntax-2.in.rs"
+sha256 = "2e4c675d28729a03087c1fb2cc9a0d8c1474fd1b45f45e26916b8ccb7d779632"
+size = 99
+
+[[files]]
+path = "rust/tests/more-syntax-2.out.rs"
+sha256 = "b4356bea0f324591f6b91ac4389bf7be5770a19783c473eb5fb957274dac28ea"
+size = 90
+
+[[files]]
+path = "rust/tests/more-syntax-3.in.rs"
+sha256 = "56338f16e5bc25c0aa6d2d1fc33dca5fa98491d12a349b77bcf69cc7b23adb51"
+size = 182
+
+[[files]]
+path = "rust/tests/more-syntax-3.out.rs"
+sha256 = "fbf6181f105a9ed50a39ac0822e42e3f85ad9ccdbcff1f15e61bc6b6266d135d"
+size = 164
+
+[[files]]
+path = "rust/tests/more-syntax-4.in.rs"
+sha256 = "950018e951c7f42c3e94875ad9707240634ae65642b3da425277f86486b57d66"
+size = 175
+
+[[files]]
+path = "rust/tests/more-syntax-4.out.rs"
+sha256 = "9a2d34b967dc3e20dd27a77249e17481ccb557e703c86d802c0bee7f2afcea41"
+size = 182
+
+[[files]]
+path = "rust/tests/more-syntax.in.rs"
+sha256 = "b0b01d017e44ad730b081308123b6e1166ef72591bbcdb4e8a9eeff016cd9907"
+size = 305
+
+[[files]]
+path = "rust/tests/more-syntax.out.rs"
+sha256 = "59b49b673dfedca1cddd04158187b3528ed1574b14e5fcf02455189d48fcec7c"
+size = 255
+
+[[files]]
+path = "rust/tests/nested-chains.in.rs"
+sha256 = "5b01e0aae6d811338418239f1fe309d3cee04540b9168e0cb058190d914d9c40"
+size = 202
+
+[[files]]
+path = "rust/tests/nested-chains.out.rs"
+sha256 = "8bc2f229e529d6bacc8e6ba72a15acf7a567c2986c49841ef9b2e280767ee0a1"
+size = 256
+
+[[files]]
+path = "rust/tests/object.in.rs"
+sha256 = "ae7972daeced3953d9678172fe353ed6668b9a0320a024114139b3dfe2288bef"
+size = 294
+
+[[files]]
+path = "rust/tests/object.out.rs"
+sha256 = "8531a0b0dfdf1fcd03de2c95e81fe651c633043384dff1e5bbdab6ede2d02332"
+size = 215
+
+[[files]]
+path = "rust/tests/random.in.rs"
+sha256 = "fa12be4885da6ded57981a3f87026554a165dbabc398981c3f4d098cce3c3d7b"
+size = 1651
+
+[[files]]
+path = "rust/tests/random.out.rs"
+sha256 = "0f0964ccd8d068eb6b80221f8a93373c66ab09a3a5faf051131b41e4d26c4aa7"
+size = 1321
+
+[[files]]
+path = "rust/tests/raw-string.in.rs"
+sha256 = "8dcf9cead6c01ba1f8f2c09bdd87e06062bae18e6b0ee50a2afe9af6df28cd88"
+size = 41
+
+[[files]]
+path = "rust/tests/raw-string.out.rs"
+sha256 = "d266f16161111a658b270defc39e263600b35b7774091da1a672b5b2e2cad70d"
+size = 49
+
+[[files]]
+path = "rust/tests/short-chain.in.rs"
+sha256 = "e9b41a0a1d0fabde40fb5ae13d592870573e0189ce2253df3384ba82f29a7200"
+size = 73
+
+[[files]]
+path = "rust/tests/short-chain.out.rs"
+sha256 = "1322968ba01f4a9812b3db080eb574a9c565ace1a2ab3c289a236b32e9d90c46"
+size = 87
+
+[[files]]
+path = "rust/tests/test-brackets.in.rs"
+sha256 = "1879d58997148675963bf1da4dda54fdde9fac68578f16d3c42c0c910331d889"
+size = 227
+
+[[files]]
+path = "rust/tests/test-brackets.out.rs"
+sha256 = "a5524e62cc0626dd1918538a72cee0a79d659feac59aa66908765df520871995"
+size = 195
+
+[[files]]
+path = "rust/tests/thread-local.in.rs"
+sha256 = "a5342deaefe8cdeb841f8d91b0eecd7c0126886ee417ac433035056c3f70dbc0"
+size = 116
+
+[[files]]
+path = "rust/tests/thread-local.out.rs"
+sha256 = "8959a3a883728d8c0b4b05a0b4e3e246272ff64c4b58acfe2726e90a1e77b5c6"
+size = 113
+
+[[files]]
+path = "rust/tests/unary-spaced.in.rs"
+sha256 = "fe517ee93578ead8d384be686e61dfe135ac18fdfb7913fc09c7cd0be33beac1"
+size = 103
+
+[[files]]
+path = "rust/tests/unary-spaced.out.rs"
+sha256 = "d51e9a33e12d6715a235bbe13f6f4e733a07a903ff87b0227d6069b46192d2de"
+size = 83
+
+[[files]]
+path = "rust/tests/unary.in.rs"
+sha256 = "6197ef20a6eedfcf9fd9ee627b7de0048eb977c291ff2d6fd51d28a9ec2bfa73"
+size = 51
+
+[[files]]
+path = "rust/tests/unary.out.rs"
+sha256 = "bdc43929c2ad5506c93de206e5a7e1bd72716989189cff5f7b28c14d9c71a458"
+size = 45
+
+[[files]]
+path = "shared/comment_helpers.rhai"
+sha256 = "4f4c9f87738880d260dddf6de6fa3e2aff770f3c9f20fe1a3dc6c94610ad3f78"
+size = 3149
+
+[[files]]
+path = "shared/comments.rhai"
+sha256 = "ca35c67334f17746917cd0973e9b47c24fffdf1799f0ffa97d753bb593d51e9b"
+size = 2338
+
+[[files]]
+path = "shared/whitespace.rhai"
+sha256 = "7b1c6eb90960cd1c0b2106c091b96e31a4d782e90d628c2525d1b10c78386100"
+size = 2343
+
+[[files]]
+path = "sql/configuration.rhai"
+sha256 = "6caed48bbba160f86c9eb1a38fdcf32f38ffd50182c8fae6f5f13d65ce87877b"
+size = 267
+
+[[files]]
+path = "sql/kinds.rhai"
+sha256 = "1e5b497e5e3d33ce2fde72d64f0164a036e708f9ba2c0ac586a48a74bca1c224"
+size = 6326
+
+[[files]]
+path = "sql/language.toml"
+sha256 = "894ba337ece18eb405023d0bc567f702d88b43a0dfc566633fa8c7f65078112f"
+size = 267
+
+[[files]]
+path = "sql/main.rhai"
+sha256 = "403b21a2a6b272a7638160268e72915601ddc949ba4b286718cd41605d6f1596"
+size = 33440
+
+[[files]]
+path = "sql/tests/basic.in.sql"
+sha256 = "78ffa2a63437f34d952c43c32437607ed6b2c467341be2eb4501cbe82afb86ae"
+size = 119
+
+[[files]]
+path = "sql/tests/basic.out.sql"
+sha256 = "16f9e5629cce94d64683e80b5ff32eccdb7a24b6d78a698cf319205daf9c45b7"
+size = 129
+
+[[files]]
+path = "sql/tests/case.in.sql"
+sha256 = "7122d08cc9ca0e9f4af92c006cefba949806f62a36161758d9cfe6c79277bfdd"
+size = 95
+
+[[files]]
+path = "sql/tests/case.out.sql"
+sha256 = "6c40d6c6151941f435ef87258962c33c570f876c1f7c51da0b631bb982559c9c"
+size = 107
+
+[[files]]
+path = "sql/tests/comments.in.sql"
+sha256 = "bc39bb8098ca552dfda83afa75b8c113c0820a68f6f5ea8bbd2134c4b402a3c4"
+size = 64
+
+[[files]]
+path = "sql/tests/comments.out.sql"
+sha256 = "99a94cc478655470caabb66614d1cd1cfe1fc42625ca4c21b452c72dcdff8a13"
+size = 69
+
+[[files]]
+path = "sql/tests/cte-join-subquery.in.sql"
+sha256 = "8982e9deae17adb73fe7595b8ca3f40ca33c0f70a74ae7b71fa9cfa878c25519"
+size = 335
+
+[[files]]
+path = "sql/tests/cte-join-subquery.out.sql"
+sha256 = "69fb9886b7e4ee571eea7e9247b3802f34ff2042caefe4be1530de895f79ff56"
+size = 371
+
+[[files]]
+path = "sql/tests/cte.in.sql"
+sha256 = "d86b1f270e3ede41cf68fd33da626c55ae6a0e619f1a50f5bd8f1a4481e709b9"
+size = 268
+
+[[files]]
+path = "sql/tests/cte.out.sql"
+sha256 = "b3693b21770796088f6285dc8dcd62b97716caf5586b7a008a89be42080a1041"
+size = 303
+
+[[files]]
+path = "sql/tests/distinct.in.sql"
+sha256 = "9e8155d99fb15bfbfaaa968f56571a5297c29824755f8a44b189e37f1bfd58e9"
+size = 37
+
+[[files]]
+path = "sql/tests/distinct.out.sql"
+sha256 = "14cc88bd35948a5a94920fbe88efd65c8c19a02066ec159c3ece63aad7b43d23"
+size = 38
+
+[[files]]
+path = "sql/tests/group-having.in.sql"
+sha256 = "bda6593c5a90d4886b30de57c0dfdd0ac1fe05cf277c7853c27614251a7b9399"
+size = 133
+
+[[files]]
+path = "sql/tests/group-having.out.sql"
+sha256 = "2670f54b28d6ff98d0a2c0030bef51a9a6c70e9bba3ec4e7a8ba0641fbd911d1"
+size = 138
+
+[[files]]
+path = "sql/tests/joins.in.sql"
+sha256 = "2dca4d66b6fcf9e2fad0422e306886e50c3425ac8e9b74b810f99348664cefb3"
+size = 147
+
+[[files]]
+path = "sql/tests/joins.out.sql"
+sha256 = "90c7492baf1986926344f959a968864e774222036ba37c2137555eceadd00bf8"
+size = 164
+
+[[files]]
+path = "sql/tests/mega-complex.in.sql"
+sha256 = "6c78187ff24a8d57ca9e4af01a6157a9710b1a6de7807eb465f6cded7111174c"
+size = 1181
+
+[[files]]
+path = "sql/tests/mega-complex.out.sql"
+sha256 = "c377b7125ecc8f5308c2b2443725b4f9caaa3513fda6190cd5393850d4e37bf4"
+size = 1323
+
+[[files]]
+path = "sql/tests/mega-nested.in.sql"
+sha256 = "f55b8aac350218cccc25121dcc1f3fcc985d2de304db1e626e0f8e4f87940932"
+size = 1553
+
+[[files]]
+path = "sql/tests/mega-nested.out.sql"
+sha256 = "2e08801057b72273690fdbe7858cb52fea7b651c4b8ac0ea146f938dbb58f765"
+size = 1806
+
+[[files]]
+path = "sql/tests/order-multi.in.sql"
+sha256 = "e5e91560596c5f1a6c1f86e961949fe12c4ca16cb5efad8c0319db57f877420b"
+size = 66
+
+[[files]]
+path = "sql/tests/order-multi.out.sql"
+sha256 = "85581e0f68f9f737ec5968c8d4511b91a70a62345d93f667a2229a081dd27fcf"
+size = 72
+
+[[files]]
+path = "sql/tests/parameters.in.sql"
+sha256 = "9d825ceb9702fd639d19db148e2eb7d01d2c793e229320230c92a8e6b98c4196"
+size = 134
+
+[[files]]
+path = "sql/tests/parameters.out.sql"
+sha256 = "ad102262df0b6c5c528004637dd59f7602d12a588747a985882757bfa9dc234b"
+size = 151
+
+[[files]]
+path = "sql/tests/subquery-in.in.sql"
+sha256 = "70e209a9f253a4a7458569253168309cc28a6483182c1378e4202179985d286f"
+size = 83
+
+[[files]]
+path = "sql/tests/subquery-in.out.sql"
+sha256 = "fd6f1ce475c441187a06ea397b6e88ef9adfb9dc280c6a15319e183d3f09945f"
+size = 98
+
+[[files]]
+path = "sql/tests/tuple-in.in.sql"
+sha256 = "3df87f5d43eb833106243f0a325b82eb1ad191d4f9adf494bf8522a30fb62d8d"
+size = 124
+
+[[files]]
+path = "sql/tests/tuple-in.out.sql"
+sha256 = "03eb879f80736ffedd94ca7c1040208f749c149f02ccc3805ec9b5d701ab5ca6"
+size = 142
+
+[[files]]
+path = "sql/tests/window-agg.in.sql"
+sha256 = "1b84c73e42d41af17973e096939e3ee12645aada6352f70d325c8f33c60763d9"
+size = 213
+
+[[files]]
+path = "sql/tests/window-agg.out.sql"
+sha256 = "c61afeb1403ae7e4e414d9c2b281986dda71b33285e310ecfd4f6a64a84bc0b1"
+size = 223
+
+[[files]]
+path = "treesitter/linux/x86_64/css.so"
+sha256 = "3e22ce0433d8732d215daceec0e28f19bcf718af3908d610e82882cf188fa3fc"
+size = 128448
+
+[[files]]
+path = "treesitter/linux/x86_64/html.so"
+sha256 = "fcb3ab15de99c5c1fd97c5d34a9c428b58c3c6c4fcbea581b9775d745d1cfe0e"
+size = 38864
+
+[[files]]
+path = "treesitter/linux/x86_64/java.so"
+sha256 = "8c02e112a7e5f40c1f0b3488da60f93dadf5bb736caa56f16c664e31e825c29b"
+size = 442640
+
+[[files]]
+path = "treesitter/linux/x86_64/json.so"
+sha256 = "6c117aed82760a1eb4417967ce4f27bd36f28e99ea799cebb95bcc317df665e3"
+size = 20264
+
+[[files]]
+path = "treesitter/linux/x86_64/markdown.so"
+sha256 = "952d6fa21408dec94d32c1c76157443a78cc47d949157a9c48018fdd29a99803"
+size = 372960
+
+[[files]]
+path = "treesitter/linux/x86_64/rhai.so"
+sha256 = "ba355e4b193e4b04aaf8b749ac17f60a9bdf370dae872108c23eab4e3fa45d39"
+size = 327872
+
+[[files]]
+path = "treesitter/linux/x86_64/rust.so"
+sha256 = "b76a68dbb2bbbb603df32fbfccdbb7c3f1ce3d4fa71b658c9979339f7a76e5f2"
+size = 1145272
+
+[[files]]
+path = "treesitter/linux/x86_64/sql.so"
+sha256 = "aad8e7648bb046df90d4ef7871b7361166f6ed04ea4ada4b3b0cfb2edf252f7a"
+size = 7085040
+
+[[files]]
+path = "treesitter/linux/x86_64/typescript.so"
+sha256 = "dfcfeec0e04f6e1681dc62f7d18da3a7fd3433b6a86a1804e5015c13954bafda"
+size = 1459960
+
+[[files]]
+path = "treesitter/linux/x86_64/vue.so"
+sha256 = "5f63546f058f5132581061d4c946a40c39aea04427b403f6827ecf42e24d94a1"
+size = 167288
+
+[[files]]
+path = "treesitter/macos/aarch64/css.dylib"
+sha256 = "ee077ab36b6012b50b82c674e0387b0bf9000b9528812911e8a6dce8eb8d5a91"
+size = 184192
+
+[[files]]
+path = "treesitter/macos/aarch64/html.dylib"
+sha256 = "08baae3cac5eaa3a631a571ffd424c6a69005bcb8c6fa2f86f3d77200159cb6c"
+size = 52280
+
+[[files]]
+path = "treesitter/macos/aarch64/java.dylib"
+sha256 = "2449d9b49b3d9724db07f304c883d3d08ba45011cc9e4fd978be23a90a42e7c8"
+size = 463960
+
+[[files]]
+path = "treesitter/macos/aarch64/json.dylib"
+sha256 = "775378628ebea60b75eb05a8556d3af791e5bcc98be62ffc06a632535557220d"
+size = 34152
+
+[[files]]
+path = "treesitter/macos/aarch64/markdown.dylib"
+sha256 = "e2d4b9a5e9bb52f431e95d76e840183c7d6057121f039cb518c63d94c7ac0cdf"
+size = 434504
+
+[[files]]
+path = "treesitter/macos/aarch64/rhai.dylib"
+sha256 = "fa95477cffc99b358caebde7a6f3e9af3bc71c31fbd86bea40d55b1012971d36"
+size = 364840
+
+[[files]]
+path = "treesitter/macos/aarch64/rust.dylib"
+sha256 = "04358d60687b2c7c6054b0a0e2db44ee53bb9ff1b6aa156b3e90fa369f2af1a9"
+size = 1175768
+
+[[files]]
+path = "treesitter/macos/aarch64/sql.dylib"
+sha256 = "86a3dfffe0c2e094efb37b6fddf7fafa4f0e945f3e23aa23dc0a3e76d0d2a10b"
+size = 7492560
+
+[[files]]
+path = "treesitter/macos/aarch64/typescript.dylib"
+sha256 = "ba5b5deb83405739c1b82b34f0b2a3001ae7c6f6e284c1e8cb255c5e1629186f"
+size = 1488824
+
+[[files]]
+path = "treesitter/macos/aarch64/vue.dylib"
+sha256 = "89150092c284d9fba110fb5cbb8f09973062cdf60734ccb458233a50a7ebb3ef"
+size = 178784
+
+[[files]]
+path = "treesitter/windows/x86_64/css.dll"
+sha256 = "f802c21c012b20c826a1ad331c38de7c1dbba2719a09cf9946b83c3f59dc6ddb"
+size = 232448
+
+[[files]]
+path = "treesitter/windows/x86_64/css.exp"
+sha256 = "8eaf1174bcd1467d872c7e5cef79bcd435a4371c8e32eddc1de13c5a95d768ec"
+size = 750
+
+[[files]]
+path = "treesitter/windows/x86_64/css.lib"
+sha256 = "901701197218edecced5c34bfe840f2d9c943e159467f59934c8cb35a17d9044"
+size = 2110
+
+[[files]]
+path = "treesitter/windows/x86_64/html.dll"
+sha256 = "164a1c9e5c2b48c36aa3182a264f89b0843e7e31df88d03b02f754d8bcc2c344"
+size = 174080
+
+[[files]]
+path = "treesitter/windows/x86_64/html.exp"
+sha256 = "35788cfcabfccc20cc3d9bb6cce48f46c3615235f82a552749dfee1c079cbe1e"
+size = 757
+
+[[files]]
+path = "treesitter/windows/x86_64/html.lib"
+sha256 = "210caf7a3c98ebe858cc934f6f4c2390b4b0e1d4175843a9e74b0c18e5c6f4f8"
+size = 2126
+
+[[files]]
+path = "treesitter/windows/x86_64/java.dll"
+sha256 = "51e28539f8576998ca7578ed32d9d151eb7497602a33e63967a9f94110d94ef3"
+size = 530432
+
+[[files]]
+path = "treesitter/windows/x86_64/java.exp"
+sha256 = "5ebfe94d7282ec8d441810f177e4e08f6c541fa95c2f6c714477c48cf2567f80"
+size = 757
+
+[[files]]
+path = "treesitter/windows/x86_64/java.lib"
+sha256 = "4b3d4f6cbde3d9e24f4b56f67e8d96e915c7033f1632d6a4c0e6704c64278d6b"
+size = 2126
+
+[[files]]
+path = "treesitter/windows/x86_64/json.dll"
+sha256 = "9fd0dc6f41e1394213d708a1b075738b701beba1cf6c0d58aef20a7a751c46f2"
+size = 109568
+
+[[files]]
+path = "treesitter/windows/x86_64/json.exp"
+sha256 = "ec1172f6e03d78b8802fd8847b56bd44dd28d5f5a15837a3e141954f70cfdef7"
+size = 757
+
+[[files]]
+path = "treesitter/windows/x86_64/json.lib"
+sha256 = "bb1f9166d7dd2a83f4bb08b596599d6ec5566605e46fa2895eb90ba7526c859a"
+size = 2126
+
+[[files]]
+path = "treesitter/windows/x86_64/markdown.dll"
+sha256 = "2178d7380e6fa6cda22f9572cb63155bbf24ce0583ff4515ad2d3601ad83debd"
+size = 534528
+
+[[files]]
+path = "treesitter/windows/x86_64/markdown.exp"
+sha256 = "ee35fd37f81f91fbff799a28ff30f8482bd6d9772c4c39079f0495792284d611"
+size = 806
+
+[[files]]
+path = "treesitter/windows/x86_64/markdown.lib"
+sha256 = "53b063e6435c2d1db6d2744ba513ee146741ce319d7af1faad8d235332ac0c4d"
+size = 2198
+
+[[files]]
+path = "treesitter/windows/x86_64/rhai.dll"
+sha256 = "b31c9b0c7960d8d63c1829c385dfb18f4003563fa1412b19de8ea817c06242c8"
+size = 425984
+
+[[files]]
+path = "treesitter/windows/x86_64/rhai.exp"
+sha256 = "721c1b5386e8a99fdc3643c2557a25e1338a1e3bc06b50a1243b142670aa7921"
+size = 757
+
+[[files]]
+path = "treesitter/windows/x86_64/rhai.lib"
+sha256 = "0fbe39adadf49bd2455895cb600e0d4d0bbcbbba100284e89acb39047f7573dd"
+size = 2126
+
+[[files]]
+path = "treesitter/windows/x86_64/rust.dll"
+sha256 = "d3136905b6c0c9d2389aaa42729be24560651d27c6f401125190f8e8f7bd21f4"
+size = 1232384
+
+[[files]]
+path = "treesitter/windows/x86_64/rust.exp"
+sha256 = "cfcdffba994ca20b3be14ead14935ce69a23bac1bed6d3163ba7aea5eef3313d"
+size = 757
+
+[[files]]
+path = "treesitter/windows/x86_64/rust.lib"
+sha256 = "d699b1dd6702b646add917adaec4b58c73a0fb6bae571d5957a38d131ab32786"
+size = 2126
+
+[[files]]
+path = "treesitter/windows/x86_64/sql.dll"
+sha256 = "7618fd693e181e25039bd3d24b1f561f7c40994be9d0e5073c90e81cd7fc2f67"
+size = 7300608
+
+[[files]]
+path = "treesitter/windows/x86_64/sql.exp"
+sha256 = "3102d829b28261057c0461669afee9bb6d7c39919a4211b8bda0894577b84370"
+size = 750
+
+[[files]]
+path = "treesitter/windows/x86_64/sql.lib"
+sha256 = "c8828844ef009e4f87b0265ca85b6816a03becc269d2e428f3961eb2252a1233"
+size = 2110
+
+[[files]]
+path = "treesitter/windows/x86_64/typescript.dll"
+sha256 = "e246e66075eae8e84791c7a65f1ff303ef0c580be75a8fdeb87444a7436ffb2e"
+size = 1539584
+
+[[files]]
+path = "treesitter/windows/x86_64/typescript.exp"
+sha256 = "934f50a20f11f82afc923496037a2d1366c0288fbf9cd843834542e023759962"
+size = 810
+
+[[files]]
+path = "treesitter/windows/x86_64/typescript.lib"
+sha256 = "5626e3eedb6c63b69584b6940c631b346f1fd5e4cd9cb81cfd0bd420ffb3fd43"
+size = 2234
+
+[[files]]
+path = "treesitter/windows/x86_64/vue.dll"
+sha256 = "a311b6c08bea2251558538111935388b4045b9617cf32291183a652fe6bbcc0a"
+size = 176640
+
+[[files]]
+path = "treesitter/windows/x86_64/vue.exp"
+sha256 = "2ddc2941ff62383c193ed07e048e6294b074c204aeec1ad847593a3992bd7f65"
+size = 750
+
+[[files]]
+path = "treesitter/windows/x86_64/vue.lib"
+sha256 = "93fa775084f7cf13a4ac662afeac8090f1307a51a3ceae795d52c9c01d8cab11"
+size = 2110
+
+[[files]]
+path = "typescript/configuration.rhai"
+sha256 = "42cede0328b806405ff82c4411c62dead8e3f505526370028cd8c6855712c09c"
+size = 285
+
+[[files]]
+path = "typescript/kinds.rhai"
+sha256 = "e2b531eec23362857a594f374d25f1ca1b5998ea9fa928fd1c729ed860bdf46e"
+size = 10379
+
+[[files]]
+path = "typescript/language.toml"
+sha256 = "fb7ef356048752d86cc29d2e91fbb91c898a9835dc3616e0c53a17ae1a31160b"
+size = 347
+
+[[files]]
+path = "typescript/main.rhai"
+sha256 = "0a038b3a2b43007c8d86f1fd6ea783c2c0d4282dd266f0e0b5090d00fb25c50e"
+size = 49323
+
+[[files]]
+path = "typescript/tests/async.in.js"
+sha256 = "7bfbd2f5541b46217c8debd5075dcd3e50f766fcb56308c82d487bba9489ea9b"
+size = 44
+
+[[files]]
+path = "typescript/tests/async.out.js"
+sha256 = "76252e7117e127d757a566b543257fe5610e3c367efca1743919a94c57067009"
+size = 45
+
+[[files]]
+path = "typescript/tests/basic.in.ts"
+sha256 = "5da45461d50359bef0c205b6afd2aa294b8cc02aa69bce04a8a0fd988e544e46"
+size = 43
+
+[[files]]
+path = "typescript/tests/basic.out.ts"
+sha256 = "e503360a4265c5ac6b2290b97ff636460eda5c4db9cacef16f9cf4e060f2b8ba"
+size = 59
+
+[[files]]
+path = "typescript/tests/chain-bad.in.ts"
+sha256 = "ca10b9f79bd45db6eb1e5cd86866e07f56a2366da102af614347c247cdd1a17d"
+size = 167
+
+[[files]]
+path = "typescript/tests/chain-bad.out.ts"
+sha256 = "e0cc5d5c4b13ae104a913d01ae6afb377c4e0fcd6c50fec9e8ca4bdb3ada986c"
+size = 155
+
+[[files]]
+path = "typescript/tests/chain-comment.in.ts"
+sha256 = "0bcfc4d2392c7a14a8e747d26ed005ac01d7dbcc621cb29032431973b1370aba"
+size = 148
+
+[[files]]
+path = "typescript/tests/chain-comment.out.ts"
+sha256 = "2132dacdb9faf296f5871f3ea2c6667477f9211ac2da90e648c0936929fc9d61"
+size = 150
+
+[[files]]
+path = "typescript/tests/chain-deep.in.ts"
+sha256 = "a19a126a42197e01dcbd1990e5ee53a73ab47329247970e24fb384d5b6e8740c"
+size = 262
+
+[[files]]
+path = "typescript/tests/chain-deep.out.ts"
+sha256 = "1a657798371914acf075547ca5097976d4fa3167287ce3283c2be9cb6e587e85"
+size = 280
+
+[[files]]
+path = "typescript/tests/chain-logical-lambda.in.ts"
+sha256 = "2fa4980b6d8353b202406e011110d8b349fe67886df86b5eceb58582740bd0dd"
+size = 376
+
+[[files]]
+path = "typescript/tests/chain-logical-lambda.out.ts"
+sha256 = "3abbca08272e8f0a362ccc71911c28c94791e49edac529dfddd05eec0f6a711e"
+size = 402
+
+[[files]]
+path = "typescript/tests/chain-nested.in.ts"
+sha256 = "1ae583043d7826de8abf8d9e2e14db8eeb60b0397a36671b61ca3c86ba944658"
+size = 307
+
+[[files]]
+path = "typescript/tests/chain-nested.out.ts"
+sha256 = "7da450f4c1bddbfaeaab24b3d5d606c0758e8af7b31759339c661d15c04b35c6"
+size = 337
+
+[[files]]
+path = "typescript/tests/chain-optional.in.ts"
+sha256 = "d5eb0e28690791ad6566c7fa8bf8a699f5820321ea38fdcfb89a84936bda01e0"
+size = 134
+
+[[files]]
+path = "typescript/tests/chain-optional.out.ts"
+sha256 = "d138d9bebdbb74d6c37c9df06cebad5b220ea9f50091fbbb19fe24a3e08f7fec"
+size = 136
+
+[[files]]
+path = "typescript/tests/chain.in.ts"
+sha256 = "82f4a12b76e2a211c578aa80c29054553b7c724f8126eaaa4dc3990c53685519"
+size = 166
+
+[[files]]
+path = "typescript/tests/chain.out.ts"
+sha256 = "650ed403973c531f4574ee1988aec4a930fc8d347b79ba6f3db9a3a3874086a3"
+size = 176
+
+[[files]]
+path = "typescript/tests/conditions.in.ts"
+sha256 = "94953ce709fb06fac4c9a412725dca7f554d8d7c010227349718aabf7940929a"
+size = 699
+
+[[files]]
+path = "typescript/tests/conditions.out.ts"
+sha256 = "9789303c6e8596defdab0af9a46a5a6aca68870f73878efaf7251801032aecfb"
+size = 825
+
+[[files]]
+path = "typescript/tests/else-if.in.ts"
+sha256 = "9f988a9ab953e13441e8b02b0f686dd96641f4a2432bcd649341401dcb270e46"
+size = 48
+
+[[files]]
+path = "typescript/tests/else-if.out.ts"
+sha256 = "b23dd98b3661a8be7c0d39fc4b2fa78b933f56eea54c5561da9ee9c428a80220"
+size = 68
+
+[[files]]
+path = "typescript/tests/for-header-arrow.in.ts"
+sha256 = "d08baf0b78f6bdf8ee684253e49a6a81230d53768b04515bfa21e1dc2fc709dd"
+size = 40
+
+[[files]]
+path = "typescript/tests/for-header-arrow.out.ts"
+sha256 = "e8ef52f68ec7593007e4433481e259da2f323cb48b9c98a391df6b7553825b1d"
+size = 49
+
+[[files]]
+path = "typescript/tests/function-decl.in.ts"
+sha256 = "1f8939476bd39d245d83d80e19f5e98ea7a01b987cfe1fdfc2830a194a5c262f"
+size = 84
+
+[[files]]
+path = "typescript/tests/function-decl.out.ts"
+sha256 = "c4f58d3f73b118bb0ffd0566ce17468787673e0e548935b22147761edd1ef928"
+size = 93
+
+[[files]]
+path = "typescript/tests/loops.in.ts"
+sha256 = "f0eba70a91ebcf30f0ea5ea8e18c3f6794465dd88bfd6cfcf13153992ffa5d8e"
+size = 103
+
+[[files]]
+path = "typescript/tests/loops.out.ts"
+sha256 = "d73a4b66b386b92d814b4cb4de59ca29090c7b017062b94dad3accc4af186b01"
+size = 137
+
+[[files]]
+path = "typescript/tests/paren-chain.in.ts"
+sha256 = "7353f02979ec5a40ad69992bcf1d209a4fd569a975e768e9d8313c3a53b54c44"
+size = 768
+
+[[files]]
+path = "typescript/tests/paren-chain.out.ts"
+sha256 = "f7014799b8045db9605496381a783bab4eb199644780574bf04824709a9596c7"
+size = 801
+
+[[files]]
+path = "typescript/tests/string-wrap.in.ts"
+sha256 = "1ee755ea7235a97f4b39376e6ea4e40f10a52dd98109f702c2477d5af7a1429a"
+size = 140
+
+[[files]]
+path = "typescript/tests/string-wrap.out.ts"
+sha256 = "3ef2c66bf663727f583075f455bc72a75dc718308def140fc84b6ffba6e34f7a"
+size = 146
+
+[[files]]
+path = "typescript/tests/switch.in.ts"
+sha256 = "9e06dd1cd783117cf9ddf56c6bddacccabbba4e8bdef63e8017943e954c8ab5e"
+size = 64
+
+[[files]]
+path = "typescript/tests/switch.out.ts"
+sha256 = "8a0f401376720ac87ba7df9210c44690d1eaf3a2c29d4837d394f108caa701f9"
+size = 86
+
+[[files]]
+path = "typescript/tests/ternary.in.ts"
+sha256 = "697271cbd96a16cc504cb1b7cc4bb894e22c822307ef0cd1d369b09672e90343"
+size = 1189
+
+[[files]]
+path = "typescript/tests/ternary.out.ts"
+sha256 = "643be4f95492943af61f77ad3b1ae599765c277e7e5a403cd1266befacd1d5db"
+size = 1189
+
+[[files]]
+path = "typescript/tests/try-catch.in.ts"
+sha256 = "fce624d6b9716040a9e3a391010bb345cb8aaf421ba2e757fc5a995d0a1b55a7"
+size = 43
+
+[[files]]
+path = "typescript/tests/try-catch.out.ts"
+sha256 = "8863dc26d1a27fd3055821b8dfdd4e3dcee98f9eb505f57cb47e470057e4a869"
+size = 58
+
+[[files]]
+path = "vue/configuration.rhai"
+sha256 = "e61bc2b3f3a9e7db7f57f7a2d0aa3b94fa00fd50716891245baf5b5b78bb6d0b"
+size = 267
+
+[[files]]
+path = "vue/kinds.rhai"
+sha256 = "3d5ce7ba8aae66a3ab0e643102921b4f1c9f19e58659be7178a04362fe52ea98"
+size = 2508
+
+[[files]]
+path = "vue/language.toml"
+sha256 = "930c520781b4e643c2344a324aec81e7261cd87ab4158ac446ec0a70e9eb57c3"
+size = 357
+
+[[files]]
+path = "vue/main.rhai"
+sha256 = "289f3873f4464828f14053f56bf9f59e9f4dceaae1fb0ef1b786a51ccc6b54b6"
+size = 11578
+
+[[files]]
+path = "vue/tests/basic.in.vue"
+sha256 = "3e88e480d1bf58be23566a77c27eb034e3bca2401e68152ca0c975a213665089"
+size = 222
+
+[[files]]
+path = "vue/tests/basic.out.vue"
+sha256 = "11bb766f7ad0d5e0004e4f0e4f31e61b62abef6f8995846a6a9a10c3fadf04c0"
+size = 274

@@ -1,0 +1,1 @@
+<template><div class="card"><h1>{{title}}</h1><p>Hi</p></div></template><script scoped>const  title="Hello"</script><style>.card{display:grid;gap:12px}@media (min-width:900px){.card{grid-template-columns:1fr 2fr}}</style>

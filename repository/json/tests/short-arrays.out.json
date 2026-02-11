@@ -1,0 +1,14 @@
+{
+	"flags": [
+		true,
+		false
+	],
+	"sizes": [
+		"xs",
+		"sm"
+	],
+	"pair": [
+		1,
+		2
+	]
+}

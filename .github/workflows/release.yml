@@ -1,0 +1,127 @@
+name: Release site content
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+
+env:
+  REPOSITORY_REPO: neatify-tech/repository
+  NEATIFY_REPO: neatify-tech/neatify
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare artifacts worktree
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin artifacts || true
+          if git show-ref --verify --quiet refs/remotes/origin/artifacts; then
+            git worktree add artifacts-worktree origin/artifacts
+          else
+            git worktree add --detach artifacts-worktree
+            git -C artifacts-worktree checkout --orphan artifacts
+            git -C artifacts-worktree rm -rf .
+            git -C artifacts-worktree config user.name "github-actions[bot]"
+            git -C artifacts-worktree config user.email "github-actions[bot]@users.noreply.github.com"
+            git -C artifacts-worktree commit --allow-empty -m "Initialize artifacts branch"
+            git push origin artifacts
+          fi
+      - name: Sync master into artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude ".git" --exclude "artifacts-worktree" ./ artifacts-worktree/
+      - name: Sync repository registry
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifacts_dir="artifacts-worktree"
+          temp_dir="$(mktemp -d)"
+          repo_tag=$(gh release view -R "$REPOSITORY_REPO" --json tagName -q .tagName)
+          asset="neatify-repository-${repo_tag}.zip"
+          gh release download -R "$REPOSITORY_REPO" -p "$asset" -D "$temp_dir" --clobber
+          rm -rf "$artifacts_dir/repository"
+          mkdir -p "$artifacts_dir/repository"
+          unzip -q "$temp_dir/$asset" -d "$temp_dir/extracted"
+          shopt -s nullglob
+          extracted_items=("$temp_dir/extracted"/*)
+          if [ "${#extracted_items[@]}" -eq 1 ] && [ -d "${extracted_items[0]}" ]; then
+            rsync -a --delete "${extracted_items[0]}/" "$artifacts_dir/repository/"
+          else
+            rsync -a --delete "$temp_dir/extracted/" "$artifacts_dir/repository/"
+          fi
+      - name: Sync downloads
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifacts_dir="artifacts-worktree"
+          rm -rf "$artifacts_dir/downloads"
+          mkdir -p "$artifacts_dir/downloads"
+          gh release download -R "$NEATIFY_REPO" -D "$artifacts_dir/downloads" -p "neatify-*" --clobber
+      - name: Generate latest.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifacts_dir="artifacts-worktree"
+          release_json=$(gh release view -R "$NEATIFY_REPO" --json tagName,assets)
+          python - "$release_json" > "$artifacts_dir/downloads/latest.json" <<'PY'
+          import json
+          import re
+          import sys
+
+          payload = json.loads(sys.argv[1])
+          version = payload.get("tagName", "").lstrip("v")
+          assets = []
+
+          pattern = re.compile(r"^neatify-(.+)-(linux|macos|windows)-([^.]+)\.(.+)$")
+          for asset in payload.get("assets", []):
+              name = asset.get("name", "")
+              match = pattern.match(name)
+              if not match:
+                  continue
+              assets.append(
+                  {
+                      "version": match.group(1),
+                      "os": match.group(2),
+                      "arch": match.group(3),
+                      "ext": match.group(4),
+                      "file": name,
+                  }
+              )
+
+          output = {
+              "version": version,
+              "assets": assets,
+          }
+          print(json.dumps(output, indent=2))
+          PY
+      - name: Commit updates
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifacts_dir="artifacts-worktree"
+          git -C "$artifacts_dir" checkout -B artifacts
+          git -C "$artifacts_dir" add -A
+          if git -C "$artifacts_dir" diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git -C "$artifacts_dir" config user.name "github-actions[bot]"
+          git -C "$artifacts_dir" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$artifacts_dir" commit -m "Sync repository and downloads"
+          git -C "$artifacts_dir" push -u origin artifacts

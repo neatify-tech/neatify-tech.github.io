@@ -1,0 +1,14 @@
+name = "java"
+version = "0.1.0"
+formatter = "java/formatter.rhai"
+fragment-marker = "/* {marker} */"
+
+# Grammar source: https://github.com/tree-sitter/tree-sitter-java
+# Grammar tag: none
+# Grammar commit: e10607b
+
+extensions = [".java"]
+
+[treesitter]
+language = "java"
+binary = "treesitter/{os}/{arch}/java.{ext}"

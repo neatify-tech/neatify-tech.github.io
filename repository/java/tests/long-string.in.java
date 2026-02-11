@@ -1,0 +1,6 @@
+class LongString {
+public String run(){
+String aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+return aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+}
+}

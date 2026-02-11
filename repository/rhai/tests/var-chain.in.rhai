@@ -1,0 +1,1 @@
+let total = data.trim().to_int().max(0).doThis().thenThat().andSomething(a.this().too()).ok().oneFinal(thing().y());

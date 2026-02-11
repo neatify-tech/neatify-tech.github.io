@@ -1,0 +1,13 @@
+name = "css"
+version = "0.1.0"
+formatter = "css/main.rhai"
+# Grammar source: https://github.com/tree-sitter/tree-sitter-css
+# Grammar tag: v0.25.0
+# Grammar commit: dda5cfc
+fragment-marker = "/* {marker} */"
+
+extensions = [".css"]
+
+[treesitter]
+language = "css"
+binary = "treesitter/{os}/{arch}/css.{ext}"

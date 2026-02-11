@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "assets": [
+    {
+      "version": "v0.1.0",
+      "os": "linux",
+      "arch": "aarch64",
+      "ext": "tar.gz",
+      "file": "neatify-v0.1.0-linux-aarch64.tar.gz"
+    },
+    {
+      "version": "v0.1.0",
+      "os": "linux",
+      "arch": "x86_64",
+      "ext": "tar.gz",
+      "file": "neatify-v0.1.0-linux-x86_64.tar.gz"
+    },
+    {
+      "version": "v0.1.0",
+      "os": "macos",
+      "arch": "aarch64",
+      "ext": "tar.gz",
+      "file": "neatify-v0.1.0-macos-aarch64.tar.gz"
+    },
+    {
+      "version": "v0.1.0",
+      "os": "windows",
+      "arch": "x86_64",
+      "ext": "zip",
+      "file": "neatify-v0.1.0-windows-x86_64.zip"
+    }
+  ]
+}

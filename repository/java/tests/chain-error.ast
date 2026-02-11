@@ -1,0 +1,60 @@
+program
+  class_declaration
+    "class"
+    name: identifier  `ChainError`
+    body: class_body
+      "{"
+      method_declaration
+        type: void_type  `void`
+        name: identifier  `run`
+        parameters: formal_parameters
+          "("
+          ")"
+        body: block
+          "{"
+          expression_statement
+            method_invocation
+              object: method_invocation
+                object: method_invocation
+                  object: method_invocation
+                    object: method_invocation
+                      object: method_invocation
+                        object: identifier  `obj`
+                        "."
+                        name: identifier  `get`
+                        arguments: argument_list
+                          "("
+                          ")"
+                      "."
+                      name: identifier  `next`
+                      arguments: argument_list
+                        "("
+                        ERROR
+                          ","
+                          "?"
+                          "?"
+                          "?"
+                        ")"
+                    "."
+                    name: identifier  `andThenDoSomethingLonger`
+                    arguments: argument_list
+                      "("
+                      ")"
+                  "."
+                  name: identifier  `andThenDoAnotherThing`
+                  arguments: argument_list
+                    "("
+                    ")"
+                "."
+                name: identifier  `andThenDoOneMoreThing`
+                arguments: argument_list
+                  "("
+                  ")"
+              "."
+              name: identifier  `finalize`
+              arguments: argument_list
+                "("
+                ")"
+            ";"
+          "}"
+      "}"

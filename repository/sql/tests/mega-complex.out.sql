@@ -1,0 +1,79 @@
+with base_users as (
+	select
+		u.id,
+		u.company_id,
+		u.email,
+		u.created_at,
+		u.status,
+		u.deleted_at
+	from users u
+),
+recent_orders as (
+	select
+		o.user_id,
+		o.id,
+		o.amount,
+		o.created_at,
+		o.status
+	from orders o
+),
+agg as (
+	select
+		ro.user_id,
+		sum(ro.amount) as total,
+		count(*) as order_count
+	from recent_orders ro
+	group by ro.user_id
+)
+select
+	u.id,
+	u.email,
+	co.name as company_name,
+	agg.total,
+	agg.order_count,
+	(
+		select
+			max(p.amount)
+		from payments p
+		where p.user_id = u.id
+			and p.status = @payStatus
+	) as max_payment,
+	case
+		when agg.total >= 10000 then 'vip'
+		when agg.total >= 5000 then 'priority'
+		else 'standard'
+	end as tier
+from base_users u
+left join companies co
+	on co.id = u.company_id
+left join recent_orders ro
+	on ro.user_id = u.id
+inner join agg
+	on agg.user_id = u.id
+right join flags f
+	on f.user_id = u.id
+full outer join regions r
+	on r.id = co.region_id
+where u.company_id = :companyId
+	and u.status = @userStatus
+	and u.created_at >= $1
+	and u.email = :email
+	and ro.created_at >= :sinceDate
+	and ro.status = 'paid'
+	and u.id in (
+			1,
+			2,
+			3,
+			4,
+			5
+		)
+	and co.name = $companyName
+	and u.deleted_at is null
+	and r.code = :regionCode
+	and u.id = $userId
+	and u.id != ?
+	and u.status != 'banned'
+order by
+	agg.total desc,
+	u.created_at asc
+limit 50;

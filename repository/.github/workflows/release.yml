@@ -1,0 +1,88 @@
+name: Release repository
+
+on:
+  workflow_dispatch:
+  release:
+    types:
+      - published
+
+
+permissions:
+  contents: write
+
+env:
+  NEATIFY_REPO: neatify-tech/neatify
+  TREESITTER_REPOS: |
+    neatify-tech/tree-sitter-css
+    neatify-tech/tree-sitter-html
+    neatify-tech/tree-sitter-java
+    neatify-tech/tree-sitter-json
+    neatify-tech/tree-sitter-markdown
+    neatify-tech/tree-sitter-rhai
+    neatify-tech/tree-sitter-rust
+    neatify-tech/tree-sitter-sql
+    neatify-tech/tree-sitter-typescript
+    neatify-tech/tree-sitter-vue
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download tree-sitter releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          while IFS= read -r repo; do
+            [[ -z "$repo" ]] && continue
+            repo_name="${repo##*/}"
+            gh release download -R "$repo" -p "tree-sitter-*" -D "$temp_dir/$repo_name" --clobber
+          done <<<"$TREESITTER_REPOS"
+          shopt -s nullglob
+          for asset in "$temp_dir"/*/tree-sitter-*; do
+            base="$(basename "$asset")"
+            if [[ "$base" =~ ^tree-sitter-(.+)-([^-]+)-([^-]+)\.([^.]+)$ ]]; then
+              lang="${BASH_REMATCH[1]}"
+              os="${BASH_REMATCH[2]}"
+              arch="${BASH_REMATCH[3]}"
+              ext="${BASH_REMATCH[4]}"
+              dest="treesitter/${os}/${arch}"
+              mkdir -p "$dest"
+              cp "$asset" "$dest/${lang}.${ext}"
+            fi
+          done
+      - name: Generate manifest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          latest_tag="$(gh release view -R "$NEATIFY_REPO" --json tagName -q .tagName)"
+          archive_name="neatify-${latest_tag}-linux-x86_64.tar.gz"
+          gh release download -R "$NEATIFY_REPO" -p "$archive_name" -D "$temp_dir" --clobber
+          tar -xzf "$temp_dir/$archive_name" -C "$temp_dir"
+          chmod +x "$temp_dir/neatify"
+          "$temp_dir/neatify" --generate-manifest
+      - name: Package artifacts
+        if: ${{ github.event_name == 'release' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag_name="${GITHUB_REF_NAME}"
+          package_name="neatify-repository-${tag_name}.zip"
+          zip -r "$package_name" . -x ".git/*" "$package_name"
+      - name: Upload release asset
+        if: ${{ github.event_name == 'release' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag_name="${GITHUB_REF_NAME}"
+          package_name="neatify-repository-${tag_name}.zip"
+          gh release upload "$tag_name" "$package_name" --clobber

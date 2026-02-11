@@ -1,0 +1,13 @@
+name = "json"
+version = "0.1.0"
+formatter = "json/main.rhai"
+
+# Grammar source: https://github.com/tree-sitter/tree-sitter-json
+# Grammar tag: none
+# Grammar commit: 001c28d
+
+extensions = [".json"]
+
+[treesitter]
+language = "json"
+binary = "treesitter/{os}/{arch}/json.{ext}"

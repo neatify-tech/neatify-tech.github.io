@@ -1,0 +1,22 @@
+<div class="panel">
+	<style>
+		.panel {
+			display: grid;
+			gap: 12px;
+		}
+
+		@media (min-width: 900px) {
+			.panel {
+				grid-template-columns: 1fr 2fr;
+			}
+		}
+	</style>
+	<script>
+		const value = 1;
+		function add(a, b) {
+			return a + b
+		}
+		console.log(add(1, 2), value);
+	</script>
+	<p>Done</p>
+</div>

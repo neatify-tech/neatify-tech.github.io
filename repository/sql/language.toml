@@ -1,0 +1,13 @@
+name = "sql"
+version = "0.1.0"
+formatter = "sql/main.rhai"
+
+# Grammar source: https://github.com/m-novikov/tree-sitter-sql
+# Grammar tag: none
+# Grammar commit: 587f30d
+
+extensions = [".sql"]
+
+[treesitter]
+language = "sql"
+binary = "treesitter/{os}/{arch}/sql.{ext}"

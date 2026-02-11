@@ -1,0 +1,11 @@
+.btn.primary:hover, .btn:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="email"]:focus-visible,
+		input[type="password"]:focus-visible,
+		textarea[data-kind="auth"]:focus-visible {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}

@@ -1,0 +1,15 @@
+class LogicalChainNested {
+	public void run(boolean conditionA, boolean conditionB) {
+		boolean veryLongLeftConditionNameThatExceedsWidth = conditionA;
+		boolean anotherVeryLongConditionNameThatExceedsWidth = conditionB;
+		if (veryLongLeftConditionNameThatExceedsWidth
+				&& validateNested(conditionA && conditionB)
+				&& anotherVeryLongConditionNameThatExceedsWidth) {
+			System.out.println("ok");
+		}
+	}
+
+	private boolean validateNested(boolean value) {
+		return value;
+	}
+}

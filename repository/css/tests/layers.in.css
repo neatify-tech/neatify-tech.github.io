@@ -1,0 +1,1 @@
+@layer reset,base,components;@layer base{body{margin:0;font:16px/1.5 "Source Serif 4",serif}}@layer components{.btn{padding:8px 12px;border-radius:8px;@media (hover:hover){&:hover{background:#eee}}}}

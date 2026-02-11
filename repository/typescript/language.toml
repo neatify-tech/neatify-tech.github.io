@@ -1,0 +1,13 @@
+name = "typescript"
+version = "0.1.0"
+formatter = "typescript/main.rhai"
+# Grammar source: https://github.com/tree-sitter/tree-sitter-typescript
+# Grammar tag: v0.23.2
+# Grammar commit: 75b3874
+fragment-marker = "/* {marker} */"
+
+extensions = [".ts", ".js"]
+
+[treesitter]
+language = "typescript"
+binary = "treesitter/{os}/{arch}/typescript.{ext}"

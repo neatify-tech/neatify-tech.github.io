@@ -1,0 +1,14 @@
+{
+	"name": "Neatify",
+	"version": "0.1.0",
+	"features": [
+		"format",
+		"lint",
+		"sync"
+	],
+	"config": {
+		"maxWidth": 100,
+		"tabWidth": 4,
+		"enabled": true
+	}
+}

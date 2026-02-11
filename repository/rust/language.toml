@@ -1,0 +1,13 @@
+name = "rust"
+version = "0.1.0"
+formatter = "rust/main.rhai"
+# Grammar source: https://github.com/tree-sitter/tree-sitter-rust
+# Grammar tag: v0.24.0
+# Grammar commit: 261b202
+fragment-marker = "/* {marker} */"
+
+extensions = [".rs"]
+
+[treesitter]
+language = "rust"
+binary = "treesitter/{os}/{arch}/rust.{ext}"
