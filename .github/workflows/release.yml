@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
 
+
 env:
   REPOSITORY_REPO: neatify-tech/repository
   NEATIFY_REPO: neatify-tech/neatify
