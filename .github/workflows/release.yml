@@ -115,6 +115,7 @@ jobs:
         run: |
           set -euo pipefail
           artifacts_dir="artifacts-worktree"
+          git -C "$artifacts_dir" checkout -B artifacts
           git -C "$artifacts_dir" add -A
           if git -C "$artifacts_dir" diff --staged --quiet; then
             echo "No changes to commit"
