@@ -123,4 +123,4 @@ jobs:
           git -C "$artifacts_dir" config user.name "github-actions[bot]"
           git -C "$artifacts_dir" config user.email "github-actions[bot]@users.noreply.github.com"
           git -C "$artifacts_dir" commit -m "Sync repository and downloads"
-          git -C "$artifacts_dir" push
+          git -C "$artifacts_dir" push -u origin artifacts
