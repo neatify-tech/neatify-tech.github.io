@@ -61,6 +61,7 @@ jobs:
           else
             rsync -a --delete "$temp_dir/extracted/" "$artifacts_dir/repository/"
           fi
+          rm -f "$artifacts_dir/repository/.gitignore"
       - name: Sync downloads
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
